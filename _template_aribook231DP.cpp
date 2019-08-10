@@ -13,10 +13,11 @@
 using namespace std;
 
 const int MAX_N = 100;
+const int MAX_W = 10000;
 // 入力
 int n, W;
 int w[MAX_N], v[MAX_N];
-int dp[MAX_N + 1][MAX_N + 1];	// メモ化テーブル
+int dp[MAX_N + 1][MAX_W + 1];	// メモ化テーブル
 
 // i番目以降の品物から重さの総和がj以下となるように選ぶ
 int rec(int i, int j) {
