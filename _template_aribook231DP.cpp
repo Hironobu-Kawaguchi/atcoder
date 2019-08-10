@@ -3,7 +3,7 @@
 #include<algorithm>
 //#include <numeric>
 //#include<string>
-#include<vector>
+//#include<vector>
 //#include<map>
 //#include<tuple>
 //#include<queue>
@@ -16,9 +16,15 @@ const int MAX_N = 100;
 // 入力
 int n, W;
 int w[MAX_N], v[MAX_N];
+int dp[MAX_N + 1][MAX_N + 1];	// メモ化テーブル
 
 // i番目以降の品物から重さの総和がj以下となるように選ぶ
 int rec(int i, int j) {
+	if (dp[i][j] >= 0)
+	{
+		// 既に調べたことがあるならばその結果を再利用
+		return dp[i][j];
+	}
 	int res;
 	if (i == n)	{
 		// もう品物は残っていない
@@ -34,7 +40,8 @@ int rec(int i, int j) {
 		// 入れない場合と入れる場合を両方試す
 		res = max(rec(i + 1, j), rec(i + 1, j - w[i]) + v[i]);
 	}
-	return res;
+	// 結果をテーブルに記録する
+	return dp[i][j] = res;
 }
 
 int main() {
@@ -43,6 +50,8 @@ int main() {
 		cin >> w[i] >> v[i];
 	}
 
+	// まだ調べていないことを表す-1でメモ化テーブルを初期化
+	memset(dp, -1, sizeof(dp));
 	cout << rec(0, W) << endl;
 
 	return 0;
