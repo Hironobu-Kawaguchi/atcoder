@@ -23,3 +23,21 @@ for i in range(N-1, -1, -1):
             dp[i, j] = max(dp[i+1, j], dp[i+1, j-w[i]] + v[i])
 
 print(dp[0, W])
+
+
+"""
+input
+N W
+w1 v1
+wn vn
+
+testdata
+4 5
+2 3
+1 2
+3 4
+2 2
+
+output
+7
+"""
