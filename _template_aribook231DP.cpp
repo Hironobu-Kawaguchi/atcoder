@@ -51,9 +51,26 @@ int main() {
 		cin >> w[i] >> v[i];
 	}
 
-	// まだ調べていないことを表す-1でメモ化テーブルを初期化
-	memset(dp, -1, sizeof(dp));
-	cout << rec(0, W) << endl;
+	//// まだ調べていないことを表す-1でメモ化テーブルを初期化
+	//memset(dp, -1, sizeof(dp));
+	//cout << rec(0, W) << endl;
+
+	// 動的計画法(DP)
+	for (int i = n - 1; i >= 0; i--)
+	{
+		for (int j = 0; j <= W; j++)
+		{
+			if (j < w[i])
+			{
+				dp[i][j] = dp[i + 1][j];
+			}
+			else
+			{
+				dp[i][j] = max(dp[i + 1][j], dp[i + 1][j - w[i]] + v[i]);
+			}
+		}
+	}
+	cout << dp[0][W] << endl;
 
 	return 0;
 }
