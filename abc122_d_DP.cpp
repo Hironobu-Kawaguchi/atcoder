@@ -1,6 +1,6 @@
 // D - We Like AGC
 // https://atcoder.jp/contests/abc122/tasks/abc122_d
-
+// https://atcoder.jp/contests/abc122/submissions/4703386
 #include<iostream>
 #include<string>
 #include<algorithm>
