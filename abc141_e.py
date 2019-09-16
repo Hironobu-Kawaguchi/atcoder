@@ -1,6 +1,6 @@
 # https://atcoder.jp/contests/abc141/tasks/abc141_e
 
-# TLE
+# Pypy
 N = int(input())
 S = input()
 DP = [[0]*5005 for _ in range(5005)]
