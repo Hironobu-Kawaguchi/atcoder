@@ -26,10 +26,57 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	int n;
-	cin >> n;
+	int h, w, a, b;
+	cin >> h >> w >> a >> b;
+    string ans = "";
+    vector<vector<char>> s(h, vector<char>(w, '0'));
+    rep(i, h) {
+        rep(j, w) {
+            if ((i<b && j<a) || (i>=b && j>=a)) {
+                s[i][j] = '1';
+            }
+        }
+    }
+    // if (a==b) {
+    //     int k = 0;
+    //     rep(i, h) {
+    //         rep(j, a) {
+    //             if (k+j >= w) k=-j;
+    //             s[i][k+j] = '1';
+    //         }
+    //         k += a;
+    //     }
+    // } else if (a==0) {
+    //     rep(i, h) {
+    //         if (i>=b) break;
+    //         rep(j, w) {
+    //             s[i][j] = '1';
+    //         }
+    //     }
+    // } else if (b==0) {
+    //     rep(i, h) {
+    //         rep(j, w) {
+    //             if (j>=a) break;
+    //             s[i][j] = '1';
+    //         }
+    //     }
+    // } else {
+    //     rep(i, h) {
+    //         rep(j, w) {
+    //             if ((i<b && j<a) || (i>=b && j>=a)) {
+    //                 s[i][j] = '1';
+    //             }
+    //         }
+    //     }
+    // } 
 
-    int ans = 0;
-	cout << ans << endl;
+    rep(i, h) {
+        ans = "";
+        rep(j, w) {
+            ans += s[i][j];
+        }
+        cout << ans << endl;
+    }
+
 	return 0;
 }
