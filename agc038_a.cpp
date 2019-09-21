@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/agc038/tasks/agc038_a
 #include<iostream>
 // #include<algorithm>
 // #include<string>

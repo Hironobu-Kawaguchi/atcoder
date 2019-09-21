@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc139/tasks/abc139_a
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -26,10 +26,12 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	int n;
-	cin >> n;
-
+	string s, t;
+	cin >> s >> t;
     int ans = 0;
+    rep(i, 3) {
+        if (s[i] == t[i]) ++ans;
+    }
 	cout << ans << endl;
 	return 0;
 }

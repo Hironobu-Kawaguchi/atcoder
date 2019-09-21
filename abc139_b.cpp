@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc139/tasks/abc139_b
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -15,6 +15,7 @@
 // #include<complex>
 // #include<stack>
 // #include<functional>
+#include<math.h>
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -26,10 +27,9 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	int n;
-	cin >> n;
-
-    int ans = 0;
+	int a, b;
+	cin >> a >> b;
+    int ans = ceil((double)(b-1)/(a-1));
 	cout << ans << endl;
 	return 0;
 }
