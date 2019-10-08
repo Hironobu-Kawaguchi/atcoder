@@ -27,8 +27,8 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	int n;
-	cin >> n;
+	int N;
+	cin >> N;
 
     int ans = 0;
 	cout << ans << endl;
