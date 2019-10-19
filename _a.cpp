@@ -20,6 +20,7 @@
 using namespace std;
 #define rep(i,n) for (int i = 0; i < (n); ++i)
 #define all(v) (v).begin(),(v).end()
+#define chmin(x,y) x = min(x,y)
 typedef pair<int, int> P;
 typedef long long ll;
 const int INF = 1001001001;
