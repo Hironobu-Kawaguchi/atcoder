@@ -13,6 +13,9 @@ a , mod = divmod((Y - N - 9*i) , 4)
 a.sort(reverse=True)
 print()
 
+import sys
+sys.setrecursionlimit(10**6)
+
 memo = [{} for _ in range(N)]
 def dfs(cur, last3):
     if cur == N:
