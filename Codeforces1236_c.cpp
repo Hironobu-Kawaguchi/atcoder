@@ -1,4 +1,4 @@
-// https://codeforces.com/contest/1236/problem/B
+// https://codeforces.com/contest/1236/problem/C
 #include<iostream>
 // #include<algorithm>
 // #include<string>

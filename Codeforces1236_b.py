@@ -1,4 +1,4 @@
-# https://codeforces.com/contest/1236/problem/C
+# https://codeforces.com/contest/1236/problem/B
 
 n = int(input())
 ans = [[] for _ in range(n)]
