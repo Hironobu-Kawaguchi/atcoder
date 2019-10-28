@@ -12,9 +12,11 @@ end = A[-1] * F[0]
 def check(now):
     cnt = 0
     for a, f in zip(A, F):
+        # cnt += max(0, a-now//f)
         eatable = now//f
         if eatable < a:
             cnt += a - eatable
+    # return cnt <= K
     if cnt > K:
         return False
     return True

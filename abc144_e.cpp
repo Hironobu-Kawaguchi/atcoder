@@ -35,6 +35,8 @@ int main() {
     rep(i, N) cin >> A[i];
     rep(i, N) cin >> F[i];
     sort(all(A));
+    // sort(all(F));
+    // reverse(all(F));
     sort(F.rbegin(), F.rend());
     ll start = -1, end = 1e12;
     while (start + 1 < end) {
