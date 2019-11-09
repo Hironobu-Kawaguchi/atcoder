@@ -9,15 +9,17 @@ LRC.sort()
 dp = [INF] * N
 dp[0] = 0
 
-for i in range(M):
-    l, r, c = LRC[i]
+for l, r, c in LRC:
     l -= 1
     r -= 1
     # print(l, r, c)
     if dp[l] == INF:
         continue
-    for i in range(l+1, r+1):
-        dp[i] = min(dp[i], dp[l] + c)
+    for i in range(r, l, -1):
+        if dp[i] > dp[l] + c:
+            dp[i] = dp[l] + c
+        else:
+            break
 
 # print(dp)
 if dp[-1] == INF:

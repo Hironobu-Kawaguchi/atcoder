@@ -48,8 +48,9 @@ int main() {
         tie(l, r, c) = LRC[i];
         // cout << l << r << c << endl;
         if (dp[l] == LINF) continue;
-        for (int j = l+1; j <= r; j++) {
-            dp[j] = min(dp[j], dp[l] + c);
+        for (int j = r; j > l; j--) {
+            if (dp[j] > dp[l] + c) dp[j] = dp[l] + c;
+            else break;
         }       
     }
 
