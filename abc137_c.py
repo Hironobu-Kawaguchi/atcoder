@@ -1,21 +1,34 @@
 # https://atcoder.jp/contests/abc137/tasks/abc137_a
 
+from collections import defaultdict
+d = defaultdict(int)
 N = int(input())
-d = dict()
 for i in range(N):
-    s = list(input())
-    s.sort()
-    s = ''.join(s)
-    if s in d:
-        d[s] += 1
-    else:
-        d[s] = 1
-
+    s = input()
+    ss = ''.join(sorted(s))
+    d[ss] += 1
 ans = 0
-for i in d.values():
-    ans += (i * (i-1)) // 2
-
+for k, v in d.items():
+    ans += (v * (v-1)) //2
 print(ans)
+
+
+# N = int(input())
+# d = dict()
+# for i in range(N):
+#     s = list(input())
+#     s.sort()
+#     s = ''.join(s)
+#     if s in d:
+#         d[s] += 1
+#     else:
+#         d[s] = 1
+
+# ans = 0
+# for i in d.values():
+#     ans += (i * (i-1)) // 2
+
+# print(ans)
 
 
 # N = int(input())

@@ -1,5 +1,25 @@
-# 
 # https://atcoder.jp/contests/abc129/tasks/abc129_d
+
+import numpy as np
+H, W = map(int, input().split())
+S = np.array([list(input()) for _ in range(H)]) == '.'
+us = np.zeros((H,W), dtype=int)    # .の連続数を格納用
+ds = np.zeros((H,W), dtype=int)    # .の連続数を格納用
+ls = np.zeros((H,W), dtype=int)    # .の連続数を格納用
+rs = np.zeros((H,W), dtype=int)    # .の連続数を格納用
+
+for h in range(1,H):
+    us[h, :] = (us[h-1, :] + 1) * S[h-1, :]
+for h in range(H-2, -1, -1):
+    ds[h, :] = (ds[h+1, :] + 1) * S[h+1, :]
+for w in range(1,W):
+    ls[:, w] = (ls[:, w-1] + 1) * S[:, w-1]
+for w in range(W-2, -1, -1):
+    rs[:, w] = (rs[:, w+1] + 1) * S[:, w+1]
+
+ans = ((us + ds + ls + rs)*S).max() + 1
+print(ans)
+
 
 # https://atcoder.jp/contests/abc129/submissions/5850116
 # import numpy as np
@@ -30,55 +50,6 @@
 #     rights[:, w] = (rights[:, w + 1] + 1) * S[:, w + 1]
 # print(((ups + downs + lefts + rights) * S).max() + 1)
 
-
-
-import numpy as np
-H, W = map(int, input().split())
-S = []
-ij = np.zeros((H,W), dtype=int)    # .の連続数を格納用
-
-for i in range(H):
-    S.append(input())
-    cnt = 0
-    start = 0
-    end = 0
-    for j in range(W):
-        if S[i][j] == '#':
-            ij[i, start:end+1] += cnt
-            cnt = 0
-        elif j > 0 and S[i][j-1] == '#':    # .のstart
-            start = j
-            end = j
-            cnt = 1
-        else:
-            end = j
-            cnt += 1
-        if j == W-1:    # 最後に書き込み
-            ij[i, start:end+1] += cnt
-            cnt = 0
-
-for j in range(W):
-    cnt = 0
-    start = 0
-    end = 0
-    for i in range(H):
-        if S[i][j] == '#':
-            ij[start:end+1, j] += cnt
-            cnt = 0
-        elif i > 0 and S[i-1][j] == '#':    # .のstart
-            start = i
-            end = i
-            cnt = 1
-        else:
-            end = i
-            cnt += 1
-        if i == H-1:    # 最後に書き込み
-            ij[start:end+1, j] += cnt
-            cnt = 0
-
-ij = ij - 1  # 自分が2回足されるので、1引く
-ans = ij.max()
-print(ans)
 
 
 
