@@ -2,7 +2,7 @@
 
 import numpy as np
 import sys
-readline = sys.stdin.readline
+readline = sys.stdin.buffer.readline
 
 N,K = map(int,readline().split())
 A = np.array([readline() for _ in range(N)], dtype=np.int32)
