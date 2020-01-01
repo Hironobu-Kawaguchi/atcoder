@@ -1,4 +1,8 @@
 # Template for AtCoder
+import sys
+input = sys.stdin.buffer.readline
+sys.setrecursionlimit(10 ** 7)
+
 S = input()
 n = int(input())
 N, K = map(int, input().split())
@@ -12,9 +16,6 @@ for i, ai in enumerate(a):
 a , mod = divmod((Y - N - 9*i) , 4)
 a.sort(reverse=True)
 print()
-
-import sys
-sys.setrecursionlimit(10**6)
 
 memo = [{} for _ in range(N)]
 def dfs(cur, last3):
