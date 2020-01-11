@@ -27,6 +27,8 @@ typedef long long ll;
 const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
+ll gcd(ll a, ll b) { return b?gcd(b,a%b):a;}
+ll lcm(ll a, ll b) { return a/gcd(a,b)*b;}
 
 int main() {
 	int N;
