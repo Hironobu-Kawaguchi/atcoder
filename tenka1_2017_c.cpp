@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_c
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -31,10 +31,18 @@ ll gcd(ll a, ll b) { return b?gcd(b,a%b):a;}
 ll lcm(ll a, ll b) { return a/gcd(a,b)*b;}
 
 int main() {
-	int n;
-	cin >> n;
-
-    int ans = 0;
-	cout << ans << endl;
-	return 0;
+	ll N;
+	cin >> N;
+    ll h, n, w;
+    for (int i = 1; i <= 3500; i++) {
+        for (int j = 1; j <= 3500; j++) {
+            if (((4*i*j-N*i-N*j)>0) && ((N*i*j)%(4*i*j-N*i-N*j)==0)) {
+                w = (N*i*j)/(4*i*j-N*i-N*j);
+                h = i;
+                n = j;
+                cout << h << ' ' << n << ' ' << w << endl;
+                return 0;
+            }
+        }
+    }
 }
