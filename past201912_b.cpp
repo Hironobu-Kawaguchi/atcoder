@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/past201912-open/tasks/past201912_b
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -20,21 +20,25 @@
 using namespace std;
 #define rep(i,n) for (int i = 0; i < (n); ++i)
 #define all(v) (v).begin(),(v).end()
-template <class T> bool chmax(T &a, const T &b) { if (a < b) { a = b; return 1; } return 0; }
-template <class T> bool chmin(T &a, const T &b) { if (b < a) { a = b; return 1; } return 0; }
-template <class T> T gcd(T a, T b) { return b ? gcd(b, a % b) : a; }
-template <class T> T lcm(T a, T b) { return a/gcd(a,b)*b; }
+#define chmin(x,y) x = min(x,y)
+#define chmax(x,y) x = max(x,y)
 typedef pair<int, int> P;
 typedef long long ll;
 const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
+ll gcd(ll a, ll b) { return b?gcd(b,a%b):a;}
+ll lcm(ll a, ll b) { return a/gcd(a,b)*b;}
 
 int main() {
 	int n;
 	cin >> n;
-
-    int ans = 0;
-	cout << ans << endl;
+    vector<int> a(n);
+    rep(i,n) cin >> a[i];
+    rep(i,n-1) {
+        if (a[i] == a[i+1])     cout << "stay"  << endl;
+        else if (a[i] < a[i+1]) cout << "up "   << a[i+1]-a[i] << endl;
+        else                    cout << "down " << a[i]-a[i+1] << endl;
+    }
 	return 0;
 }
