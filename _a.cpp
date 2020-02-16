@@ -1,4 +1,4 @@
-// https://atcoder.jp/contests/agc019/tasks/agc019_b
+// 
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -31,15 +31,10 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	string A;
-	cin >> A;
-	int n = A.size();
-    ll ans = 1;
-	vector<int> c(256,0);
-	rep(i,n) {
-		ans += i - c[A[i]];
-		c[A[i]]++;
-	}
+	int n;
+	cin >> n;
+
+    ll ans = 0;
 	cout << ans << endl;
 	return 0;
 }
