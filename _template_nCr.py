@@ -1,7 +1,9 @@
 # Template for AtCoder
 
+MOD = 10**9+7
+
 # フェルマーの小定理
-def nCr(n, r, mod=10**9+7):
+def nCr(n, r, mod=MOD):
     r = min(r, n-r)
     numer = denom = 1
     for i in range(1, r+1):
@@ -9,7 +11,6 @@ def nCr(n, r, mod=10**9+7):
         denom = denom * i % mod
     return numer * pow(denom, mod-2, mod) % mod
 
-MOD = 10**9+7
 MAXN = 10**5
 f = [1]
 for i in range(MAXN):
