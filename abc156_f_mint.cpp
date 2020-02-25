@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc156/tasks/abc156_f
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -31,11 +31,26 @@ const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
-int main() {
-	int n;
-	cin >> n;
+int divceil(int a, int b) {
+    return (a+b-1)/b;
+}
 
-    ll ans = 0;
-	cout << ans << endl;
+int main() {
+	ll k, q;
+	cin >> k >> q;
+    vector<int> d(k);
+    rep(i,k) cin >> d[i];
+    rep(qi,q) {
+        int n, x, m;
+        cin >> n >> x >> m;
+        ll last = x, eq = 0;
+        rep(i,k) {
+            ll num = divceil(n-1-i,k);
+            last += (d[i]%m) * num;
+            if (d[i]%m == 0) eq += num;
+        }
+        ll ans = (n-1) - (last/m - x/m) - eq;
+        cout << ans << endl;
+    }
 	return 0;
 }

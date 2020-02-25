@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/tdpc/tasks/tdpc_game
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -31,11 +31,28 @@ const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
-int main() {
-	int n;
-	cin >> n;
+const int MX = 1005;
+int a[MX], b[MX], dp[MX][MX];
 
-    ll ans = 0;
-	cout << ans << endl;
+int main() {
+	int na, nb;
+	cin >> na >> nb;
+    rep(i,na) cin >> a[i];
+    rep(i,nb) cin >> b[i];
+
+    drep(i,na+1) drep(j,nb+1) {
+        if (i==na && j==nb) continue;
+        if((i+j)&1) {
+            dp[i][j] = INF;
+            if(i<na) dp[i][j] = min(dp[i+1][j], dp[i][j]);
+            if(j<nb) dp[i][j] = min(dp[i][j+1], dp[i][j]);
+        } else {
+            dp[i][j] = 0;
+            if(i<na) dp[i][j] = max(dp[i+1][j] + a[i], dp[i][j]);
+            if(j<nb) dp[i][j] = max(dp[i][j+1] + b[j], dp[i][j]);
+        }
+    }
+
+	cout << dp[0][0] << endl;
 	return 0;
 }

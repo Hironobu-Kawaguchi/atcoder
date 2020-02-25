@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc156/tasks/abc156_c
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -34,8 +34,14 @@ const ll MOD = 1e9+7;
 int main() {
 	int n;
 	cin >> n;
-
-    ll ans = 0;
+    vector<int> x(n);
+    rep(i,n) cin >> x[i];
+    int ans = INF;
+    for (int p = 1; p <= 100; p++) {
+        int tmp = 0;
+        rep(i,n) tmp += (x[i]-p) * (x[i]-p);
+        ans = min(ans, tmp);
+    }
 	cout << ans << endl;
 	return 0;
 }

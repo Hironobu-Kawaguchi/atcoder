@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc156/tasks/abc156_d
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -31,11 +31,30 @@ const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
-int main() {
-	int n;
-	cin >> n;
+// フェルマーの小定理
+ll mod_pow(ll n, ll p, ll mod=MOD) {
+    if(p==0) return 1;
+    ll res = mod_pow(n*n%mod, p/2, mod);
+    if(p%2==1) res = res * n % mod;
+    return res;
+}
+ll nCr(ll n, ll r, ll mod=MOD) {
+    r = min(r, n-r);
+    ll numer = 1, denom = 1;
+    rep(i,r) {
+        numer *= n-i;
+        numer %= mod;
+        denom *= i+1;
+        denom %= mod;
+    }
+    return numer * mod_pow(denom, mod-2, mod) % mod;
+}
 
-    ll ans = 0;
+int main() {
+	ll n, a, b;
+	cin >> n >> a >> b;
+    ll ans = mod_pow(2, n) - 1 -nCr(n,a) - nCr(n,b) + MOD * 2;
+    ans %= MOD;
 	cout << ans << endl;
 	return 0;
 }

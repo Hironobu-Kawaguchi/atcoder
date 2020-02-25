@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc154/tasks/abc154_c
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -6,7 +6,7 @@
 // #include<vector>
 // #include<map>
 // #include<tuple>
-// #include<set>
+#include<set>
 // #include<queue>
 // #include<deque>
 // #include<regex>
@@ -19,7 +19,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define rep(i,n) for (int i = 0; i < (n); ++i)
-#define drep(i,n) for(int i = (n-1); i >= 0; i--)
 #define all(v) (v).begin(),(v).end()
 template <class T> bool chmax(T &a, const T &b) { if (a < b) { a = b; return 1; } return 0; }
 template <class T> bool chmin(T &a, const T &b) { if (b < a) { a = b; return 1; } return 0; }
@@ -34,8 +33,13 @@ const ll MOD = 1e9+7;
 int main() {
 	int n;
 	cin >> n;
-
-    ll ans = 0;
-	cout << ans << endl;
+    vector<ll> a(n);
+    set<ll> s;
+    rep(i,n) {
+        cin >> a[i];
+        s.insert(a[i]);
+    }
+    if (a.size() == s.size()) cout << "YES" << endl;
+    else                      cout << "NO"  << endl;
 	return 0;
 }

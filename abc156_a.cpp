@@ -1,4 +1,4 @@
-// 
+// https://atcoder.jp/contests/abc156/tasks/abc156_a
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -32,10 +32,9 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
-	int n;
-	cin >> n;
-
-    ll ans = 0;
+	int n, r;
+	cin >> n >> r;
+    int ans = r + 100 * max(0, 10-n);
 	cout << ans << endl;
 	return 0;
 }
