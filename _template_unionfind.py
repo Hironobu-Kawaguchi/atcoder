@@ -4,7 +4,7 @@ class UnionFind():
     """ Union-Find木の実装（ランクあり） """
     def __init__(self, n):
         self.n = n
-        self.parent = [-1]*(n+1)    # parent 親
+        self.parent = [-1]*(n+1)    # parent 親 マイナスだったら根で、絶対値が集合の数
         self.rank   = [0]*(n+1)     # rank 深さ
 
     def root(self, x):
@@ -22,8 +22,10 @@ class UnionFind():
         if x == y:
             return 0
         elif self.rank[x] > self.rank[y]:
+            self.parent[x] += self.parent[y]
             self.parent[y] = x
         else:
+            self.parent[y] += self.parent[x]
             self.parent[x] = y
             if self.rank[x] == self.rank[y]:
                 self.rank[y] += 1
@@ -31,6 +33,11 @@ class UnionFind():
     def isSame(self, x, y):
         """ xとyが同じ集合に属するか否か """
         return self.root(x) == self.root(y) or x==y
+    
+    def size(self, x):
+        """ xと同じ集合に属する数 """
+        return -self.parent[self.root(x)]
+
 
 N, Q = map(int, input().split())
 uf = UnionFind(N)
