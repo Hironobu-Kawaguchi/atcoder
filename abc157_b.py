@@ -1,7 +1,7 @@
 # https://atcoder.jp/contests/abc157/tasks/abc157_b
 
 import sys
-input = sys.stdin.buffer.readline
+def input(): return sys.stdin.readline().rstrip()
 sys.setrecursionlimit(10 ** 7)
 
 A = [list(map(int, (input().split()))) for _ in range(3)]
