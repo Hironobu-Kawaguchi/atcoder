@@ -35,7 +35,6 @@ int main() {
     string s;
     ll k;
 	cin >> s >> k;
-    int n = s.size();
     vector<int> chrs;
     int num = 1;
     rep(i,s.size()) {
@@ -49,19 +48,54 @@ int main() {
         }
     }
     chrs.push_back(num);
-    int chrs_n = chrs.size();
     ll cnt = 0; // sの最初と最後の文字種を除いたs内の操作回数
-    rep(i,chrs_n-2) cnt += chrs[i+1] / 2;
+    rep(i,int(chrs.size())-2) cnt += chrs[i+1] / 2;
 
     ll ans = 0;
     if (chrs.size() == 1) {     // 全結合
         ans = (k * s.size()) / 2;
-    } else if (s[0] == s[n-1]) { // 結合あり
-        ans = cnt * k + chrs[0]/2 + chrs[chrs_n-1]/2 + ((chrs[0]+chrs[chrs_n-1])/2)*(k-1);
+    } else if (s.front() == s.back()) { // 結合あり
+        ans = cnt * k + chrs.front()/2 + chrs.back()/2 + ((chrs.front()+chrs.back())/2)*(k-1);
     } else {                    // 結合なし
-        ans = (cnt + chrs[0]/2 + chrs[chrs_n-1]/2) * k;
+        ans = (cnt + chrs.front()/2 + chrs.back()/2) * k;
     }
 
 	cout << ans << endl;
 	return 0;
 }
+
+
+// int main() {
+//     string s;
+//     ll k;
+// 	cin >> s >> k;
+//     int n = s.size();
+//     vector<int> chrs;
+//     int num = 1;
+//     rep(i,s.size()) {
+//         if(i) {
+//             if(s[i-1]==s[i]) {
+//                 num++;
+//             } else {
+//                 chrs.push_back(num);
+//                 num = 1;
+//             }
+//         }
+//     }
+//     chrs.push_back(num);
+//     int chrs_n = chrs.size();
+//     ll cnt = 0; // sの最初と最後の文字種を除いたs内の操作回数
+//     rep(i,chrs_n-2) cnt += chrs[i+1] / 2;
+
+//     ll ans = 0;
+//     if (chrs.size() == 1) {     // 全結合
+//         ans = (k * s.size()) / 2;
+//     } else if (s[0] == s[n-1]) { // 結合あり
+//         ans = cnt * k + chrs[0]/2 + chrs[chrs_n-1]/2 + ((chrs[0]+chrs[chrs_n-1])/2)*(k-1);
+//     } else {                    // 結合なし
+//         ans = (cnt + chrs[0]/2 + chrs[chrs_n-1]/2) * k;
+//     }
+
+// 	cout << ans << endl;
+// 	return 0;
+// }
