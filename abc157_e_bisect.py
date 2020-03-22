@@ -1,43 +1,84 @@
 # https://atcoder.jp/contests/abc157/tasks/abc157_e
 
-import bisect
 import sys
+# input = sys.stdin.buffer.readline
 def input(): return sys.stdin.readline().rstrip()
+sys.setrecursionlimit(10 ** 7)
 
-n = int(input())
-s = list(input())
-q = int(input())
+import bisect
+from string import ascii_lowercase
+d = dict()
+for i, c in enumerate(ascii_lowercase):
+    d[c] = i
 
-char_idx = [[] for _ in range(26)]
-for i in range(n):
-    char_idx[ord(s[i])-ord('a')].append(i)
-# print(char_idx)
+N = int(input())
+S = list(input())
+lst = [[] for _ in range(26)]
+for i in range(N):
+    lst[d[S[i]]].append(i)
 
-query = [input().split() for _ in range(q)]
-# print(query)
-
-for t, a, b in query:
-    if t=='1':
-        i = int(a) - 1
-        if s[i] == b:
+Q = int(input())
+for q in range(Q):
+    a, b, c = input().split()
+    if a=='1':
+        i = int(b)-1
+        if c == S[i]:   # 変更なし
             continue
-        else:
-            idx = bisect.bisect_left(char_idx[ord(s[i])-ord('a')], i)
-            if char_idx[ord(s[i])-ord('a')][idx] == i:
-                del char_idx[ord(s[i])-ord('a')][idx]
-            bisect.insort_left(char_idx[ord(b)-ord('a')], i)
-            s[i] = b
+        idx = bisect.bisect_left(lst[d[S[i]]],i)
+        del lst[d[S[i]]][idx]
+        bisect.insort_left(lst[d[c]],i)
+        S[i] = c
     else:
-        l = int(a) - 1
-        r = int(b) - 1
+        l = int(b)-1
+        r = int(c)
         ans = 0
         for i in range(26):
-            if len(char_idx[i]) == 0:
-                continue
-            it = bisect.bisect_left(char_idx[i], l)
-            if it < len(char_idx[i]) and char_idx[i][it] <= r:
+            cnt = bisect.bisect_left(lst[i],r) - bisect.bisect_left(lst[i],l)
+            if cnt:
                 ans += 1
         print(ans)
+
+
+
+# import bisect
+# import sys
+# def input(): return sys.stdin.readline().rstrip()
+
+# n = int(input())
+# s = list(input())
+# q = int(input())
+
+# char_idx = [[] for _ in range(26)]
+# for i in range(n):
+#     char_idx[ord(s[i])-ord('a')].append(i)
+# # print(char_idx)
+
+# query = [input().split() for _ in range(q)]
+# # print(query)
+
+# for t, a, b in query:
+#     if t=='1':
+#         i = int(a) - 1
+#         if s[i] == b:
+#             continue
+#         else:
+#             idx = bisect.bisect_left(char_idx[ord(s[i])-ord('a')], i)
+#             if char_idx[ord(s[i])-ord('a')][idx] == i:
+#                 del char_idx[ord(s[i])-ord('a')][idx]
+#             bisect.insort_left(char_idx[ord(b)-ord('a')], i)
+#             s[i] = b
+#     else:
+#         l = int(a) - 1
+#         r = int(b) - 1
+#         ans = 0
+#         for i in range(26):
+#             if len(char_idx[i]) == 0:
+#                 continue
+#             it = bisect.bisect_left(char_idx[i], l)
+#             if it < len(char_idx[i]) and char_idx[i][it] <= r:
+#                 ans += 1
+#         print(ans)
+
 
 
 # WA
