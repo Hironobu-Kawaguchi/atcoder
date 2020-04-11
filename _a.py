@@ -1,6 +1,8 @@
 # 
 import sys
-def input(): return sys.stdin.readline().rstrip()
+# def input(): return sys.stdin.readline().rstrip()
+# input = sys.stdin.readline
+input = sys.stdin.buffer.readline
 sys.setrecursionlimit(10 ** 7)
 
 S = input()

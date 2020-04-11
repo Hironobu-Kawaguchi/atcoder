@@ -32,10 +32,12 @@ const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
 int main() {
+    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
 	int n;
 	cin >> n;
 
     ll ans = 0;
-	cout << ans << endl;
+	cout << ans << "\n";
 	return 0;
 }
