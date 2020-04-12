@@ -6,6 +6,22 @@
 1≤N≤200
 1≤Ai≤109
 """
+
+N = int(input())
+A = list(map(int, input().split()))
+ans = 1001001001
+for i in range(N):
+    cnt = 0
+    a = A[i]
+    while a&1 == 0:
+        cnt += 1
+        a >>= 1
+    if cnt < ans:
+        ans = cnt
+print(ans)
+
+
+
 """
 input();a=lambda x:0 if x%2 else 1+a(x//2);print(min(map(a,map(int,input().split()))))
 """
@@ -25,18 +41,18 @@ while all(e % 2 == 0 for e in l):
  
 print(count)
 """
-n = int(input())
-a = input().split()
-#print(a)
-cnt = 0
-flg = 0
-while flg == 0:
-    for i,ai in enumerate(a):
-        if int(ai) % 2 == 0:
-            a[i] = int(ai) / 2
-        else:
-            flg = 1
-    if flg == 0:
-        cnt += 1
-        #print(cnt)
-print(cnt)
+# n = int(input())
+# a = input().split()
+# #print(a)
+# cnt = 0
+# flg = 0
+# while flg == 0:
+#     for i,ai in enumerate(a):
+#         if int(ai) % 2 == 0:
+#             a[i] = int(ai) / 2
+#         else:
+#             flg = 1
+#     if flg == 0:
+#         cnt += 1
+#         #print(cnt)
+# print(cnt)

@@ -16,7 +16,9 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		cin >> a.at(i);
 	}
-	sort(a.begin(), a.end(), greater<int>());
+	// sort(a.begin(), a.end(), greater<int>());
+	sort(a.begin(), a.end());
+	reverse(a.begin(), a.end());
 
 	int ans = 0;
 

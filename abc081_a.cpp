@@ -8,13 +8,25 @@
 using namespace std;
 
 int main() {
-	int s;
+	string s;
 	cin >> s;
-	int s1 = s / 100;
-	int s2 = (s - s1 * 100) / 10;
-	int s3 = s - s1 * 100 - s2 * 10;
-	cout << s1 + s2 + s3 << endl;
+	int ans = 0;
+	for (int i = 0; i < 3; i++)	{
+		ans += s[i] - '0';
+	}
+	cout << ans << endl;
+	return 0;
 }
+
+
+// int main() {
+// 	int s;
+// 	cin >> s;
+// 	int s1 = s / 100;
+// 	int s2 = (s - s1 * 100) / 10;
+// 	int s3 = s - s1 * 100 - s2 * 10;
+// 	cout << s1 + s2 + s3 << endl;
+// }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー

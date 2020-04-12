@@ -7,29 +7,53 @@
 // #include <bits/stdc++.h>
 using namespace std;
 
+#define rep(i,n) for (int i = 0; i < (n); ++i)
+typedef long long ll;
+const ll LINF = 1001002003004005006ll;
+
+
 int main() {
-	int N;
-	cin >> N;
-	int ans = 30;	// 2**30 = 1073741824 (>10**9)
-	for (int i = 0; i < N; i++) {
-		int A;
-		cin >> A;
-		int cnt = 0;
-		while (A > 0) {	// 各Aについて、2で何回割り切れるかカウント(cnt)
-			if (A % 2 == 0)	{
-				A /= 2;
-				cnt++;
-			}
-			else {
-				break;
-			}
+	int n;
+	cin >> n;
+	ll a;
+	ll ans = LINF;
+	rep(i,n) {
+		cin >> a;
+		ll cnt = 0;
+		while ((a&1)==0) {
+			++cnt;
+			a >>= 1;
 		}
-		if (ans > cnt) {	// 各Aのcntの最小値をansに格納
-			ans = cnt;
-		}
+		if (cnt < ans) ans = cnt;
 	}
 	cout << ans << endl;
+	return 0;
 }
+
+
+// int main() {
+// 	int N;
+// 	cin >> N;
+// 	int ans = 30;	// 2**30 = 1073741824 (>10**9)
+// 	for (int i = 0; i < N; i++) {
+// 		int A;
+// 		cin >> A;
+// 		int cnt = 0;
+// 		while (A > 0) {	// 各Aについて、2で何回割り切れるかカウント(cnt)
+// 			if (A % 2 == 0)	{
+// 				A /= 2;
+// 				cnt++;
+// 			}
+// 			else {
+// 				break;
+// 			}
+// 		}
+// 		if (ans > cnt) {	// 各Aのcntの最小値をansに格納
+// 			ans = cnt;
+// 		}
+// 	}
+// 	cout << ans << endl;
+// }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
