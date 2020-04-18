@@ -31,27 +31,58 @@ const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
-int n, k;
-ll ans = 0;
-
-void dfs(int num, ll x) {
-    x %= MOD;
-    if (num==n) {
-        ans += x;
-        ans %= MOD;
-        return;
-    }
-    for (ll i = 1; i <= k; i++) {
-        dfs(num+1, gcd(x, i));
-    }   
-    return;
+ll mod_pow(ll n, ll p, ll mod=MOD) {
+    if(p==0) return 1;
+    ll res = mod_pow(n*n%mod, p/2, mod);
+    if(p%2==1) res = res * n % mod;
+    return res;
 }
 
 int main() {
+    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+	int n, k;
 	cin >> n >> k;
-    for (ll i = 1; i <= k; i++) {
-        dfs(1, i);
-    }   
+    vector<ll> d(k+1);
+    for (int i = 1; i <= k; i++) {
+        d[i] = mod_pow(k/i, n, MOD);
+    }
+    for (int i = k; i > 0; i--) {
+        for (int j = 2*i; j <= k; j+=i) {
+            d[i] -= d[j];
+            d[i] %= MOD;
+        }        
+    }
+    ll ans = 0;
+    for (int i = 1; i <= k; i++) {
+        ans += d[i] * i;
+        ans %= MOD;
+    }
 	cout << ans << "\n";
 	return 0;
 }
+
+// int n, k;
+// ll ans = 0;
+
+// void dfs(int num, ll x) {
+//     x %= MOD;
+//     if (num==n) {
+//         ans += x;
+//         ans %= MOD;
+//         return;
+//     }
+//     for (ll i = 1; i <= k; i++) {
+//         dfs(num+1, gcd(x, i));
+//     }   
+//     return;
+// }
+
+// int main() {
+// 	cin >> n >> k;
+//     for (ll i = 1; i <= k; i++) {
+//         dfs(1, i);
+//     }   
+// 	cout << ans << "\n";
+// 	return 0;
+// }
