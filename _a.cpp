@@ -21,6 +21,8 @@ using namespace std;
 #define rep(i,n) for (int i = 0; i < (n); ++i)
 #define drep(i,n) for(int i = (n-1); i >= 0; i--)
 #define all(v) (v).begin(),(v).end()
+#define maxs(x,y) (x = max(x,y))
+#define mins(x,y) (x = min(x,y))
 template <class T> bool chmax(T &a, const T &b) { if (a < b) { a = b; return 1; } return 0; }
 template <class T> bool chmin(T &a, const T &b) { if (b < a) { a = b; return 1; } return 0; }
 template <class T> T gcd(T a, T b) { return b ? gcd(b, a % b) : a; }
