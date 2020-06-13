@@ -2,3 +2,4 @@
 *.pdf
 *.pdb
 *.exe
+/__pycache__
