@@ -14,6 +14,8 @@ def main():
         return
     return
 
+main()
+
 S = input()
 n = int(input())
 N, K = map(int, input().split())
