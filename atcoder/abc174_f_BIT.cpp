@@ -33,32 +33,63 @@ const int INF = 1001001001;
 const ll LINF = 1001002003004005006ll;
 const ll MOD = 1e9+7;
 
-// int MAXN=500005;
-int MAXN=505;
+// Binary Indexed Tree (Fenwick Tree)
+// https://youtu.be/lyHk98daDJo?t=7960
+template<typename T>
+struct BIT {
+  int n;
+  vector<T> d;
+  BIT(int n=0):n(n),d(n+1) {}
+  void add(int i, T x=1) {
+    for (i++; i <= n; i += i&-i) {
+      d[i] += x;
+    }
+  }
+  T sum(int i) {
+    T x = 0;
+    for (i++; i; i -= i&-i) {
+      x += d[i];
+    }
+    return x;
+  }
+  T sum(int l, int r) {
+    return sum(r-1) - sum(l-1);
+  }
+};
+
 int main() {
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
     int n, q;
 	cin >> n >> q;
-    int c;
-    vector<vector<int>> cums(MAXN, vector<int>(MAXN));
-    // cout << n << endl;
+    vector<int> c(n);
+    rep(i,n) cin >> c[i];
+    vector<int> pi(n+1, -1);
+    vector<vector<int>> ps(n);
     rep(i,n) {
-        cin >> c;
-        c--;
-        rep(j,n) {
-            if (c==j) cums[j][i+1] = cums[j][i] + 1;
-            else      cums[j][i+1] = cums[j][i];
-        }
+        int l = pi[c[i]];
+        if (l != -1) ps[l].push_back(i);
+        pi[c[i]] = i;
     }
-    int ans, l, r;
-    rep(i,q) {
-        ans = 0;
+
+    vector<vector<P>> qs(n);
+    rep(qi,q) {
+        int l, r;
         cin >> l >> r;
-        rep(j,n) {
-            if (cums[j][r]-cums[j][l-1]) ans++;
-        }
-        cout << ans << "\n";
+        --l; --r;
+        qs[l].emplace_back(r,qi);
     }
+
+    vector<int> ans(q);
+    BIT<int> d(n);
+    for (int x = n-1; x >= 0; --x) {
+        for (int y : ps[x]) d.add(y,1);
+        for (P query : qs[x]) {
+          int r = query.first, i = query.second;
+          ans[i] = (r-x+1) - d.sum(r);
+        }
+    }    
+
+    rep(i,q) cout << ans[i] << "\n";
 	return 0;
 }
