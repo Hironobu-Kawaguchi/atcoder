@@ -38,17 +38,18 @@ int main() {
     ios::sync_with_stdio(false);
 	int n;
 	cin >> n;
-    vector<ll> fact(n+1);
-    fact[0] = 1;
+    ll ans = 1;
     rep(i,n) {
-        fact[i+1] = (fact[i]*(i+1)) % MOD;
-    }
-    ll ans = fact[n];
-    rep(i,n-1) {
-        ans -= fact[n-i-1] * 2;
-        ans += MOD;
+        ans *= i+1;
         ans %= MOD;
     }
+    ll dif = 1;
+    rep(i,n-1) {
+        dif *= 2;
+        dif %= MOD;
+    }
+    ans += MOD - dif;
+    ans %= MOD;
     cout << ans << endl;
 	return 0;
 }
