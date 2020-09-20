@@ -1,4 +1,4 @@
-// https://atcoder.jp/contests/abc179/tasks/abc179_e
+// https://atcoder.jp/contests/abc179/tasks/abc179_b
 #include<iostream>
 // #include<algorithm>
 // #include<string>
@@ -36,41 +36,19 @@ const ll MOD = 1e9+7;
 int main() {
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
-	ll n;
-    int x, m;
-	cin >> n >> x >> m;
-    vector<ll> cum(m+1), num(m+1);
-    cum[0] = x;
-    num[x] = 1;
-    ll now = x;
-    int i = 1;
-    ll pre_num, cycle_num, pre_sum, cycle_sum;
-    while(1) {
-        now = (now*now)%m;
-        // cout << i << ' ' << now << endl;
-        if(num[now]!=0) {
-            pre_num = num[now]-1;
-            cycle_num = i - pre_num;
-            if(pre_num>0) pre_sum = cum[pre_num-1];
-            else          pre_sum = 0;
-            cycle_sum = cum[i-1] - pre_sum;
-            // cout << pre_num << ' ' << pre_sum << ' ' << cycle_num << ' ' << cycle_sum << ' ' << endl;
-            break;
+    int n;
+    int cnt = 0;
+    cin >> n;
+    rep(i,n) {
+        int a, b;
+        cin >> a >> b;
+        if(a==b) ++cnt;
+        else cnt = 0;
+        if(cnt==3) {
+            cout << "Yes" << endl;
+            return 0;
         }
-        num[now] = i+1;
-        cum[i] = cum[i-1] + now;
-        ++i;
     }
-    ll ans = 0;
-    if(n<pre_num) {
-        ans = cum[n-n];
-    } else {
-        ans += pre_sum;
-        n -= pre_num;
-        ans += (n/cycle_num) * cycle_sum;
-        n %= cycle_num;
-        ans += cum[n + pre_num - 1] - pre_sum;
-    }
-    cout << ans << endl;
+    cout << "No" << endl;
 	return 0;
 }

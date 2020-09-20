@@ -39,27 +39,51 @@ int main() {
     ios::sync_with_stdio(false);
 	int n, k;
 	cin >> n >> k;
-    vector<P> s;
-    rep(i,k) {
-        int l, r;
-        cin >> l >> r;
-        s.push_back(make_pair(l,r));
-    }
-    vector<ll> dp(2*n);
-    dp[n] = 1;
-    ll cum = 0;
-    rep(i,n-1) {
-        for (P p: s) {
-            cum += dp[i+n+1-p.first];
-            cum -= dp[i+n+1-p.second-1];
-            cum += 2 * MOD;
-            cum %= MOD;
+    vector<int> l(k), r(k);
+    rep(i,k) cin >> l[i] >> r[i];
+    vector<ll> dp(n+1), dpsum(n+1);
+    dp[1] = 1, dpsum[1] = 1;
+    for (int i = 2; i <= n; ++i) {
+        rep(j,k) {
+            int li = i-r[j];
+            int ri = i-l[j];
+            if (ri < 0) continue;
+            li = max(li, 1);
+            dp[i] += dpsum[ri] - dpsum[li-1];
+            dp[i] %= MOD;
         }
-        dp[i+n+1] = cum;
+        dpsum[i] = dpsum[i-1] + dp[i];
     }
-    cout << dp[2*n-1] << endl;
+    cout << dp[n] << endl;
 	return 0;
 }
+
+// int main() {
+//     cin.tie(nullptr);
+//     ios::sync_with_stdio(false);
+// 	int n, k;
+// 	cin >> n >> k;
+//     vector<P> s;
+//     rep(i,k) {
+//         int l, r;
+//         cin >> l >> r;
+//         s.push_back(make_pair(l,r));
+//     }
+//     vector<ll> dp(2*n);
+//     dp[n] = 1;
+//     ll cum = 0;
+//     rep(i,n-1) {
+//         for (P p: s) {
+//             cum += dp[i+n+1-p.first];
+//             cum -= dp[i+n+1-p.second-1];
+//             cum += 2 * MOD;
+//             cum %= MOD;
+//         }
+//         dp[i+n+1] = cum;
+//     }
+//     cout << dp[2*n-1] << endl;
+// 	return 0;
+// }
 
 // TLE
 // int main() {
