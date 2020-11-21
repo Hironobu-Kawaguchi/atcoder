@@ -1,64 +1,69 @@
 # https://atcoder.jp/contests/arc108/tasks/arc108_b
-# import sys
-# # def input(): return sys.stdin.readline().rstrip()
-# # input = sys.stdin.readline
-# input = sys.stdin.buffer.readline
-# from numba import njit
-# from functools import lru_cache
-# sys.setrecursionlimit(10 ** 7)
-# import math
 
 n = int(input())
 s = input()
-num = 0
+s = list(s)[::-1]
+t = []
 
-lst = []
-i = 0
-while i<n:
-    if i<n-2:
-        if s[i:i+3] == 'fox':
-            num += 1
-            i += 3
-            continue
-    if i<n-1:
-        if s[i:i+2] == 'fo':
-            lst.append('fo')
-            i += 2
-            continue
-        if s[i:i+2] == 'ox':
-            if len(lst) and lst[-1]=='f':
-                num += 1
-                lst.pop()
-            else:
-                lst = []
-            i += 2
-            continue
-    if s[i] == 'f':
-        lst.append('f')
-        i += 1
-        continue
-    elif s[i] == 'o':
-        if len(lst) and lst[-1]=='f':
-            lst[-1] = 'fo'
-            i += 1
-            continue
-        else:
-            lst = []
-            i += 1
-    elif s[i] == 'x':
-        if len(lst) and lst[-1]=='fo':
-            num += 1
-            lst.pop()
-            i += 1
-            continue
-        else:
-            lst = []
-            i += 1
-    else:
-        lst = []
-        i += 1
+for i in range(n):
+    t.append(s.pop())
+    while len(t)>=3 and t[-3:]==['f','o','x']:
+        for _ in range(3):
+            t.pop()
+print(len(t))
 
-print(n-num*3)
+
+# n = int(input())
+# s = input()
+# num = 0
+# lst = []
+# i = 0
+# while i<n:
+#     if i<n-2:
+#         if s[i:i+3] == 'fox':
+#             num += 1
+#             i += 3
+#             continue
+#     if i<n-1:
+#         if s[i:i+2] == 'fo':
+#             lst.append('fo')
+#             i += 2
+#             continue
+#         if s[i:i+2] == 'ox':
+#             if len(lst) and lst[-1]=='f':
+#                 num += 1
+#                 lst.pop()
+#             else:
+#                 lst = []
+#             i += 2
+#             continue
+#     if s[i] == 'f':
+#         lst.append('f')
+#         i += 1
+#         continue
+#     elif s[i] == 'o':
+#         if len(lst) and lst[-1]=='f':
+#             lst[-1] = 'fo'
+#             i += 1
+#             continue
+#         else:
+#             lst = []
+#             i += 1
+#     elif s[i] == 'x':
+#         if len(lst) and lst[-1]=='fo':
+#             num += 1
+#             lst.pop()
+#             i += 1
+#             continue
+#         else:
+#             lst = []
+#             i += 1
+#     else:
+#         lst = []
+#         i += 1
+
+# print(n-num*3)
+
 
 
 # TLE
@@ -94,11 +99,3 @@ print(n-num*3)
 #     print(-1)
 #     return
 
-# main()
-
-
-# S = input()
-# n = int(input())
-# N, K = map(int, input().split())
-# l = list(map(int, (input().split())))
-# A = [[int(i) for i in input().split()] for _ in range(N)]
