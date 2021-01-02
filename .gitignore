@@ -4,3 +4,7 @@
 *.pdb
 *.exe
 /__pycache__
+
+a.out
+input.txt
+output.txt
