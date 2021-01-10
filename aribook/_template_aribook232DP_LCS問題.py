@@ -1,4 +1,4 @@
-# aribook232 DP 最長共通部分列問題
+# aribook232 DP 最長共通部分列問題(LCS: Longest Common Subsequence)
 
 import numpy as np
 

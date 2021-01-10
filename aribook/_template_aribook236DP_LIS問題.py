@@ -1,4 +1,4 @@
-# aribook236 DP 最長増加部分列問題
+# aribook236 DP 最長増加部分列問題(LIS: Longest Increasing Subsequence)
 
 import numpy as np
 
