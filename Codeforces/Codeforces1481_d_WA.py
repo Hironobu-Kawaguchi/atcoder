@@ -5,15 +5,12 @@ input = sys.stdin.readline
 def main():
     n, m = map(int, input().split())
     G = [input().strip() for _ in range(n)]
-    # G = []
-    # for i in range(n):
-    #     G.append(input())
-    if m%2:  # 奇数なら、同じ辺の繰り返しでOK
+    if m%2:
         ans = [1,2] * ((m+1)//2)
         print("YES")
         print(*ans)
         return
-    for i in range(n):  # 逆向きが同じなら、同じ辺の繰り返しでOK
+    for i in range(n):
         for j in range(n):
             if i==j: continue
             if G[i][j] == G[j][i]:
@@ -48,7 +45,7 @@ def main():
                     if e>n:
                         print('NO')
                         return
-                if (m//2)%2:  # 半分が奇数
+                if (m//2)%2:
                     ans = [b] + [a, b] * (m//2//2) + [c] + [d, e] * (m//2//2) + [d]
                 else:
                     ans =       [a, b] * (m//2//2) + [c] + [d, e] * (m//2//2)
