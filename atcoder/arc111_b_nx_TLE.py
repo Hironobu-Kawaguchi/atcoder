@@ -19,12 +19,16 @@ for c in nx.connected_components(G):
     # print(c)
     sg = nx.subgraph(G,c)
     # print(len(sg.nodes), len(sg.edges))
-    ns = len(sg.nodes)
-    es = len(sg.edges)
-    if ns==es+1:  # 木
-        ans += ns - 1
+    # ns = len(sg.nodes)
+    # es = len(sg.edges)
+    # if ns==es+1:  # 木
+    #     ans += ns - 1
+    # else:         # 木以外
+    #     ans += ns
+    if nx.is_tree(sg):  # 木
+        ans += len(sg.nodes) - 1
     else:         # 木以外
-        ans += ns
+        ans += len(sg.nodes)
 print(ans)
 
 
