@@ -40,19 +40,38 @@ int main() {
     ios::sync_with_stdio(false);
 	int n, m;
     cin >> n >> m;
-    vector<int> a(n);
-    rep(i,n) cin >> a[i];
-    vector<int> cnt(n+1);
-    rep(i,m) cnt[a[i]]++;
-    int ans=0;
-    while(cnt[ans]>0) ans++;
-    rep(i,n-m) {
-        cnt[a[i]]--;
-        cnt[a[i+m]]++;
-        int tmp=0;
-        while(cnt[tmp]>0) tmp++;
-        ans = min(ans,tmp);
+    vector<int> pre(n, -1);
+    int ans = n;
+    rep(i,n) {
+        int a;
+        cin >> a;
+        if (i-pre[a]>m) ans = min(ans, a);
+        pre[a] = i;
     }
+    rep(i,n) if(n-pre[i]>m) ans = min(ans, i);
     cout << ans << endl;
 	return 0;
 }
+
+// TLE
+// int main() {
+//     cin.tie(nullptr);
+//     ios::sync_with_stdio(false);
+// 	int n, m;
+//     cin >> n >> m;
+//     vector<int> a(n);
+//     rep(i,n) cin >> a[i];
+//     vector<int> cnt(n+1);
+//     rep(i,m) cnt[a[i]]++;
+//     int ans=0;
+//     while(cnt[ans]>0) ans++;
+//     rep(i,n-m) {
+//         cnt[a[i]]--;
+//         cnt[a[i+m]]++;
+//         int tmp=0;
+//         while(cnt[tmp]>0) tmp++;
+//         ans = min(ans,tmp);
+//     }
+//     cout << ans << endl;
+// 	return 0;
+// }
