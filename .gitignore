@@ -1,13 +1,16 @@
 /.vs
 /.vscode
+/ahc/rcl-contest-2021-long/A
+
 *.pdf
 *.pdb
 *.exe
-/__pycache__
+*.zip
+input*.txt
+output*.txt
 
+__pycache__
 a.out
-input.txt
-output.txt
 in
 out
 read
