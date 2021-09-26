@@ -4,8 +4,8 @@
 # from numba import njit
 # from functools import lru_cache
 
-# import sys
-# input = sys.stdin.buffer.readline
+import sys
+input = sys.stdin.buffer.readline
 # sys.setrecursionlimit(10 ** 7)
 
 
