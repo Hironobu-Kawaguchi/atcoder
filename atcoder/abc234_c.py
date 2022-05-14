@@ -4,30 +4,40 @@
 # from numba import njit
 # from functools import lru_cache
 
-import sys
-input = sys.stdin.buffer.readline
-# sys.setrecursionlimit(10 ** 7)
+K = int(input())
+ans = []
+while K>0:
+    tmp = K%2
+    tmp *= 2
+    ans.append(str(tmp))
+    K //= 2
+ans.reverse()
+print("".join(ans))
 
-def main():
-    K = int(input())
-    if K==1:
-        return '2'
-    K -= 1
-    now = 2
-    while K>now:
-        K -= now
-        now *= 2
-    ans = '2'
-    while now>1:
-        now //= 2
-        if K>now:
-            ans += '2'
-            K -= now
-        else:
-            ans += '0'
-    return ans
+# import sys
+# input = sys.stdin.buffer.readline
+# # sys.setrecursionlimit(10 ** 7)
 
-print(main())
+# def main():
+#     K = int(input())
+#     if K==1:
+#         return '2'
+#     K -= 1
+#     now = 2
+#     while K>now:
+#         K -= now
+#         now *= 2
+#     ans = '2'
+#     while now>1:
+#         now //= 2
+#         if K>now:
+#             ans += '2'
+#             K -= now
+#         else:
+#             ans += '0'
+#     return ans
+
+# print(main())
 
 
 
