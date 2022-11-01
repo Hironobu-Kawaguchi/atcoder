@@ -1,6 +1,8 @@
 /.vs
 /.vscode
 /ahc/rcl-contest-2021-long/A
+/ahc/ahc015/tools/
+/ahc/intro-heuristics/tester/
 
 *.pdf
 *.pdb
