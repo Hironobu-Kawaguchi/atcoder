@@ -1,5 +1,6 @@
 # https://atcoder.jp/contests/abc185/tasks/abc185_f
 # https://qiita.com/takayg1/items/c811bd07c21923d7ec69
+
 #####segfunc#####
 def segfunc(x, y):
     return x^y
@@ -82,28 +83,3 @@ for q in range(Q):
     elif T==2:
         ans = seg.query(X,Y)
         print(ans)
-
-
-# TLE
-# from collections import defaultdict
-# d = defaultdict(int)
-
-# N, Q = map(int, input().split())
-# A = list(map(int, (input().split())))
-# cumA = [0]
-# for i in range(N):
-#     cumA.append(cumA[-1]^A[i])
-# for q in range(Q):
-#     T, X, Y = map(int, input().split())
-#     if T==1:
-#         d[X-1] ^= Y
-#     elif T==2:
-#         if X==1:
-#             ans = cumA[Y]
-#         else:
-#             ans = cumA[Y]^cumA[X-1]
-#         for k, v in d.items():
-#             if k<X-1: continue
-#             if k>=Y: continue
-#             ans ^= v
-#         print(ans)
