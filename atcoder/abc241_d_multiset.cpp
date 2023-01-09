@@ -6,7 +6,7 @@
 // #include<vector>
 // #include<map>
 // #include<tuple>
-// #include<set>
+#include<set>
 // #include<queue>
 // #include<deque>
 // #include<regex>
@@ -38,37 +38,36 @@ const ll MOD = 1e9+7;
 int main() {
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
-    multiset<ll> st;
+    multiset<ll> s;
 	int q;
 	cin >> q;
     rep(qi, q) {
-        int t;
-        cin >> t;
-        if(t==1) {
-            int x;
-            cin >> x;
-            st.insert(x);
-        } else if (t==2) {
-            int x, k;
-            cin >> x >> k;
-            auto iter = upper_bound(st.begin(), st.end(), x);
-            if(distance(st.begin(), iter)<k) {
-                cout << -1 << endl;
-            } else {
-                advance(iter, -k);
-                // iter--;
-                cout << *iter << endl;
-            }
+        int type; ll x;
+        cin >> type >> x;
+        if(type==1) {
+            s.insert(x);
         } else {
-            int x, k;
-            cin >> x >> k;
-            auto iter = lower_bound(st.begin(), st.end(), x);
-            if(distance(iter, st.end())<k) {
-                cout << -1 << endl;
+            int k;
+            cin >> k;
+            ll ans = -1;
+            if (type==2) {
+                auto it = s.upper_bound(x);
+                bool ok = true;
+                rep(i,k) {
+                    if (it == s.begin()) { ok = false; break;}
+                    --it;
+                }
+                if (ok) ans = *it;
             } else {
-                advance(iter, k-1);
-                cout << *iter << endl;
+                auto it = s.lower_bound(x);
+                bool ok = true;
+                rep(i,k-1) {
+                    if (it == s.end()) { ok = false; break;}
+                    ++it;
+                }
+                if (ok && it != s.end()) ans = *it;
             }
+            cout << ans << endl;
         }
     }
 	return 0;
