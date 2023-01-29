@@ -1,35 +1,62 @@
 # https://atcoder.jp/contests/arc142/tasks/arc142_b
-# # def input(): return sys.stdin.readline().rstrip()
-# # input = sys.stdin.readline
-# from numba import njit
-# from functools import lru_cache
 
 import sys
 input = sys.stdin.buffer.readline
+# def input(): return sys.stdin.readline().rstrip()
 # sys.setrecursionlimit(10 ** 7)
 
 def main():
     A, B = map(int, input().split())
     ans = 1001001001
-    M = int(B**0.5)
-    if A<M:
-        for x in range(A+1):
-            k = (B+A+x-1)//(A+x)
-            y = k*(A+x) - B
+    if A*A<B:
+        for x in range(A+10):
+            k = (B+A+x-1) // (A+x)
+            y = k * (A+x) - B
             if y<0: continue
             ans = min(ans, x+y)
+            # print(x, y, k)
     else:
-        for k in range(1, (B+A-1)//A + 1):
-            x = max((B+k-1)//k - A, 0)
-            y = k*(A+x) - B
+        for k in range(1, B//A+10):
+            x = max(0, (B+k-1) // k - A)
+            y = k * (A+x) - B
             if y<0: continue
             ans = min(ans, x+y)
+            # print(x, y, k)
     print(ans)
     return
 
 T = int(input())
-for t in range(T):
+for ti in range(T):
     main()
+
+
+
+# import sys
+# input = sys.stdin.buffer.readline
+# # sys.setrecursionlimit(10 ** 7)
+
+# def main():
+#     A, B = map(int, input().split())
+#     ans = 1001001001
+#     M = int(B**0.5)
+#     if A<M:
+#         for x in range(A+1):
+#             k = (B+A+x-1)//(A+x)
+#             y = k*(A+x) - B
+#             if y<0: continue
+#             ans = min(ans, x+y)
+#     else:
+#         for k in range(1, (B+A-1)//A + 1):
+#             x = max((B+k-1)//k - A, 0)
+#             y = k*(A+x) - B
+#             if y<0: continue
+#             ans = min(ans, x+y)
+#     print(ans)
+#     return
+
+# T = int(input())
+# for t in range(T):
+#     main()
 
 
 
