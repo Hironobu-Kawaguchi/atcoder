@@ -6,38 +6,17 @@ import sys
 # input = sys.stdin.buffer.readline
 def input(): return sys.stdin.readline().rstrip()
 # sys.setrecursionlimit(10 ** 7)
+
 MOD = 998244353
-
 N = int(input())
-strA = input()
-strB = input()
-A, B = [], []
+A = list(input())
+B = list(input())
 for i in range(N):
-    if strA[i]<=strB[i]:
-        A.append(int(strA[i]))
-        B.append(int(strB[i]))
-    else:
-        A.append(int(strB[i]))
-        B.append(int(strA[i]))
-# print(A)
-# print(B)
-
-moda = 0
-keta = 1
-for i in range(N-1, -1, -1):
-    moda += A[i] * keta
-    moda %= MOD
-    keta *= 10
-    keta %= MOD
-modb = 0
-keta = 1
-for i in range(N-1, -1, -1):
-    modb += B[i] * keta
-    modb %= MOD
-    keta *= 10
-    keta %= MOD
-ans = moda * modb % MOD
-print(ans)
+    if A[i]>B[i]:
+        A[i], B[i] = B[i], A[i]
+Aint = int("".join(A)) % MOD
+Bint = int("".join(B)) % MOD
+print(Aint * Bint % MOD)
 
 
 # S = input()
