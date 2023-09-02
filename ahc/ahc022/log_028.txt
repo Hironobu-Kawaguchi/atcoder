@@ -1,0 +1,1204 @@
+====================
+Processing input: 0000
+    Finished release [optimized] target(s) in 0.04s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=50 N=95 S=36
+max_temperture=216
+Score = 6199330
+Number of wrong answers = 0
+Placement cost = 14111778
+Measurement cost = 1919000
+Measurement count = 1615
+Extracted score for 0000: 6199330
+====================
+Processing input: 0001
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=35 N=66 S=289
+max_temperture=1000
+Score = 663407
+Number of wrong answers = 0
+Placement cost = 147231614
+Measurement cost = 3405600
+Measurement count = 2640
+Extracted score for 0001: 663407
+====================
+Processing input: 0002
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=89 S=324
+max_temperture=1000
+Score = 1421246
+Number of wrong answers = 0
+Placement cost = 64475804
+Measurement cost = 5785000
+Measurement count = 4361
+Extracted score for 0002: 1421246
+====================
+Processing input: 0003
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=35 N=61 S=4
+max_temperture=50
+Score = 82982594
+Number of wrong answers = 0
+Placement cost = 409672
+Measurement cost = 695400
+Measurement count = 610
+Extracted score for 0003: 82982594
+====================
+Processing input: 0004
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=33 N=81 S=529
+max_temperture=1000
+Score = 468587
+Number of wrong answers = 2
+Placement cost = 121333906
+Measurement cost = 15147000
+Measurement count = 9963
+Extracted score for 0004: 468587
+====================
+Processing input: 0005
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=35 N=93 S=529
+max_temperture=1000
+Score = 252684
+Number of wrong answers = 4
+Placement cost = 147231614
+Measurement cost = 14768400
+Measurement count = 9951
+Extracted score for 0005: 252684
+====================
+Processing input: 0006
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=30 N=89 S=784
+max_temperture=1000
+Score = 660
+Number of wrong answers = 32
+Placement cost = 105199188
+Measurement cost = 14889700
+Measurement count = 9968
+Extracted score for 0006: 660
+====================
+Processing input: 0007
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=49 N=71 S=36
+max_temperture=216
+Score = 6334952
+Number of wrong answers = 0
+Placement cost = 13605140
+Measurement cost = 2080300
+Measurement count = 1704
+Extracted score for 0007: 6334952
+====================
+Processing input: 0008
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=30 N=87 S=784
+max_temperture=1000
+Score = 14993
+Number of wrong answers = 18
+Placement cost = 105199188
+Measurement cost = 14859600
+Measurement count = 9918
+Extracted score for 0008: 14993
+====================
+Processing input: 0009
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=10 N=61 S=196
+max_temperture=1000
+Score = 7258598
+Number of wrong answers = 0
+Placement cost = 12285966
+Measurement cost = 1390800
+Measurement count = 1159
+Extracted score for 0009: 7258598
+====================
+Processing input: 0010
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=22 N=95 S=1
+max_temperture=50
+Score = 146752371
+Number of wrong answers = 0
+Placement cost = 172920
+Measurement cost = 408500
+Measurement count = 380
+Extracted score for 0010: 146752371
+====================
+Processing input: 0011
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=45 N=73 S=81
+max_temperture=486
+Score = 1734823
+Number of wrong answers = 0
+Placement cost = 55688570
+Measurement cost = 1854200
+Measurement count = 1533
+Extracted score for 0011: 1734823
+====================
+Processing input: 0012
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=24 N=76 S=25
+max_temperture=150
+Score = 28220017
+Number of wrong answers = 0
+Placement cost = 1611984
+Measurement cost = 1831600
+Measurement count = 1520
+Extracted score for 0012: 28220017
+====================
+Processing input: 0013
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=43 N=96 S=1
+max_temperture=50
+Score = 84792902
+Number of wrong answers = 0
+Placement cost = 560944
+Measurement cost = 518400
+Measurement count = 480
+Extracted score for 0013: 84792902
+====================
+Processing input: 0014
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=26 N=65 S=144
+max_temperture=864
+Score = 1723079
+Number of wrong answers = 0
+Placement cost = 56707160
+Measurement cost = 1228500
+Measurement count = 1040
+Extracted score for 0014: 1723079
+====================
+Processing input: 0015
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=43 N=93 S=361
+max_temperture=1000
+Score = 477555
+Number of wrong answers = 0
+Placement cost = 201283378
+Measurement cost = 8016600
+Measurement count = 5859
+Extracted score for 0015: 477555
+====================
+Processing input: 0016
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=24 N=78 S=81
+max_temperture=486
+Score = 5513350
+Number of wrong answers = 0
+Placement cost = 15955196
+Measurement cost = 2082600
+Measurement count = 1716
+Extracted score for 0016: 5513350
+====================
+Processing input: 0017
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=19 N=98 S=81
+max_temperture=486
+Score = 7726359
+Number of wrong answers = 0
+Placement cost = 10608308
+Measurement cost = 2234400
+Measurement count = 1862
+Extracted score for 0017: 7726359
+====================
+Processing input: 0018
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=39 N=73 S=25
+max_temperture=150
+Score = 17580675
+Number of wrong answers = 0
+Placement cost = 3638964
+Measurement cost = 1949100
+Measurement count = 1606
+Extracted score for 0018: 17580675
+====================
+Processing input: 0019
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=46 N=65 S=576
+max_temperture=1000
+Score = 255815
+Number of wrong answers = 2
+Placement cost = 238511202
+Measurement cost = 11570000
+Measurement count = 7670
+Extracted score for 0019: 255815
+====================
+Processing input: 0020
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=26 N=94 S=81
+max_temperture=486
+Score = 4686343
+Number of wrong answers = 0
+Placement cost = 18851002
+Measurement cost = 2387600
+Measurement count = 1974
+Extracted score for 0020: 4686343
+====================
+Processing input: 0021
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=17 N=62 S=484
+max_temperture=1000
+Score = 2113866
+Number of wrong answers = 0
+Placement cost = 39047502
+Measurement cost = 8159200
+Measurement count = 5642
+Extracted score for 0021: 2113866
+====================
+Processing input: 0022
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=28 N=62 S=289
+max_temperture=1000
+Score = 1061674
+Number of wrong answers = 0
+Placement cost = 90978522
+Measurement cost = 3112400
+Measurement count = 2418
+Extracted score for 0022: 1061674
+====================
+Processing input: 0023
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=16 N=90 S=16
+max_temperture=96
+Score = 42423430
+Number of wrong answers = 0
+Placement cost = 322188
+Measurement cost = 1935000
+Measurement count = 1620
+Extracted score for 0023: 42423430
+====================
+Processing input: 0024
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=21 N=62 S=900
+max_temperture=1000
+Score = 17428
+Number of wrong answers = 20
+Placement cost = 50832460
+Measurement cost = 15221000
+Measurement count = 9982
+Extracted score for 0024: 17428
+====================
+Processing input: 0025
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=10 N=65 S=841
+max_temperture=1000
+Score = 127020
+Number of wrong answers = 15
+Placement cost = 12285966
+Measurement cost = 15314000
+Measurement count = 9945
+Extracted score for 0025: 127020
+====================
+Processing input: 0026
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=14 N=74 S=784
+max_temperture=1000
+Score = 284567
+Number of wrong answers = 10
+Placement cost = 22196088
+Measurement cost = 15436400
+Measurement count = 9990
+Extracted score for 0026: 284567
+====================
+Processing input: 0027
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=13 N=95 S=225
+max_temperture=1000
+Score = 5233004
+Number of wrong answers = 0
+Placement cost = 13261984
+Measurement cost = 5747500
+Measurement count = 4370
+Extracted score for 0027: 5233004
+====================
+Processing input: 0028
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=25 N=76 S=441
+max_temperture=1000
+Score = 1133770
+Number of wrong answers = 0
+Placement cost = 77582948
+Measurement cost = 10518400
+Measurement count = 7220
+Extracted score for 0028: 1133770
+====================
+Processing input: 0029
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=40 N=79 S=25
+max_temperture=150
+Score = 15183475
+Number of wrong answers = 0
+Placement cost = 4171408
+Measurement cost = 2314700
+Measurement count = 1896
+Extracted score for 0029: 15183475
+====================
+Processing input: 0030
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=40 N=96 S=9
+max_temperture=54
+Score = 37675086
+Number of wrong answers = 0
+Placement cost = 615074
+Measurement cost = 1939200
+Measurement count = 1632
+Extracted score for 0030: 37675086
+====================
+Processing input: 0031
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=20 N=72 S=225
+max_temperture=1000
+Score = 1886432
+Number of wrong answers = 0
+Placement cost = 50202938
+Measurement cost = 2707200
+Measurement count = 2160
+Extracted score for 0031: 1886432
+====================
+Processing input: 0032
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=48 N=70 S=256
+max_temperture=1000
+Score = 384392
+Number of wrong answers = 0
+Placement cost = 256537602
+Measurement cost = 3514000
+Measurement count = 2730
+Extracted score for 0032: 384392
+====================
+Processing input: 0033
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=35 N=60 S=900
+max_temperture=1000
+Score = 7098
+Number of wrong answers = 20
+Placement cost = 147231614
+Measurement cost = 15120000
+Measurement count = 9960
+Extracted score for 0033: 7098
+====================
+Processing input: 0034
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=36 N=65 S=1
+max_temperture=50
+Score = 115690930
+Number of wrong answers = 0
+Placement cost = 413372
+Measurement cost = 351000
+Measurement count = 325
+Extracted score for 0034: 115690930
+====================
+Processing input: 0035
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=22 N=60 S=576
+max_temperture=1000
+Score = 1324418
+Number of wrong answers = 0
+Placement cost = 62996892
+Measurement cost = 12408000
+Measurement count = 8040
+Extracted score for 0035: 1324418
+====================
+Processing input: 0036
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=48 N=91 S=16
+max_temperture=96
+Score = 21979791
+Number of wrong answers = 0
+Placement cost = 2374834
+Measurement cost = 2074800
+Measurement count = 1729
+Extracted score for 0036: 21979791
+====================
+Processing input: 0037
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=10 N=85 S=625
+max_temperture=1000
+Score = 392407
+Number of wrong answers = 10
+Placement cost = 12285966
+Measurement cost = 14977000
+Measurement count = 9945
+Extracted score for 0037: 392407
+====================
+Processing input: 0038
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=13 N=71 S=484
+max_temperture=1000
+Score = 4268072
+Number of wrong answers = 0
+Placement cost = 13261984
+Measurement cost = 10067800
+Measurement count = 6887
+Extracted score for 0038: 4268072
+====================
+Processing input: 0039
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=79 S=289
+max_temperture=1000
+Score = 1458968
+Number of wrong answers = 0
+Placement cost = 64475804
+Measurement cost = 3965800
+Measurement count = 3081
+Extracted score for 0039: 1458968
+====================
+Processing input: 0040
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=49 N=98 S=784
+max_temperture=1000
+Score = 221
+Number of wrong answers = 33
+Placement cost = 272587952
+Measurement cost = 14729400
+Measurement count = 9996
+Extracted score for 0040: 221
+====================
+Processing input: 0041
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=19 N=75 S=9
+max_temperture=54
+Score = 60191361
+Number of wrong answers = 0
+Placement cost = 143868
+Measurement cost = 1417500
+Measurement count = 1200
+Extracted score for 0041: 60191361
+====================
+Processing input: 0042
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=31 N=64 S=36
+max_temperture=216
+Score = 13566276
+Number of wrong answers = 0
+Placement cost = 5312820
+Measurement cost = 1958400
+Measurement count = 1600
+Extracted score for 0042: 13566276
+====================
+Processing input: 0043
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=33 N=95 S=36
+max_temperture=216
+Score = 12039777
+Number of wrong answers = 0
+Placement cost = 5792802
+Measurement cost = 2413000
+Measurement count = 1995
+Extracted score for 0043: 12039777
+====================
+Processing input: 0044
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=29 N=79 S=841
+max_temperture=1000
+Score = 2565
+Number of wrong answers = 26
+Placement cost = 102567170
+Measurement cost = 15199600
+Measurement count = 9954
+Extracted score for 0044: 2565
+====================
+Processing input: 0045
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=11 N=87 S=729
+max_temperture=1000
+Score = 26809
+Number of wrong answers = 22
+Placement cost = 12563770
+Measurement cost = 14859600
+Measurement count = 9918
+Extracted score for 0045: 26809
+====================
+Processing input: 0046
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=10 N=92 S=625
+max_temperture=1000
+Score = 316366
+Number of wrong answers = 11
+Placement cost = 12285966
+Measurement cost = 14766000
+Measurement count = 9936
+Extracted score for 0046: 316366
+====================
+Processing input: 0047
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=89 S=196
+max_temperture=1000
+Score = 1453607
+Number of wrong answers = 0
+Placement cost = 64475804
+Measurement cost = 4218600
+Measurement count = 3293
+Extracted score for 0047: 1453607
+====================
+Processing input: 0048
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=15 N=99 S=100
+max_temperture=600
+Score = 7300075
+Number of wrong answers = 0
+Placement cost = 9876090
+Measurement cost = 3722400
+Measurement count = 2970
+Extracted score for 0048: 7300075
+====================
+Processing input: 0049
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=20 N=68 S=36
+max_temperture=216
+Score = 26047392
+Number of wrong answers = 0
+Placement cost = 2365556
+Measurement cost = 1373600
+Measurement count = 1156
+Extracted score for 0049: 26047392
+====================
+Processing input: 0050
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=31 N=85 S=256
+max_temperture=1000
+Score = 891685
+Number of wrong answers = 0
+Placement cost = 106522346
+Measurement cost = 5525000
+Measurement count = 4165
+Extracted score for 0050: 891685
+====================
+Processing input: 0051
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=24 N=74 S=169
+max_temperture=1000
+Score = 1451107
+Number of wrong answers = 0
+Placement cost = 67125718
+Measurement cost = 1687200
+Measurement count = 1406
+Extracted score for 0051: 1451107
+====================
+Processing input: 0052
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=46 N=80 S=676
+max_temperture=1000
+Score = 21656
+Number of wrong answers = 13
+Placement cost = 238511202
+Measurement cost = 15248000
+Measurement count = 10000
+Extracted score for 0052: 21656
+====================
+Processing input: 0053
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=45 N=70 S=289
+max_temperture=1000
+Score = 413606
+Number of wrong answers = 0
+Placement cost = 237336320
+Measurement cost = 4340000
+Measurement count = 3290
+Extracted score for 0053: 413606
+====================
+Processing input: 0054
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=43 N=71 S=256
+max_temperture=1000
+Score = 489116
+Number of wrong answers = 0
+Placement cost = 201283378
+Measurement cost = 3067200
+Measurement count = 2414
+Extracted score for 0054: 489116
+====================
+Processing input: 0055
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=19 N=84 S=4
+max_temperture=50
+Score = 112639505
+Number of wrong answers = 0
+Placement cost = 132588
+Measurement cost = 655200
+Measurement count = 588
+Extracted score for 0055: 112639505
+====================
+Processing input: 0056
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=32 N=68 S=81
+max_temperture=486
+Score = 3275480
+Number of wrong answers = 0
+Placement cost = 28349080
+Measurement cost = 2080800
+Measurement count = 1700
+Extracted score for 0056: 3275480
+====================
+Processing input: 0057
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=19 N=82 S=324
+max_temperture=1000
+Score = 1858922
+Number of wrong answers = 0
+Placement cost = 46626236
+Measurement cost = 7068400
+Measurement count = 5166
+Extracted score for 0057: 1858922
+====================
+Processing input: 0058
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=45 N=76 S=900
+max_temperture=1000
+Score = 1196
+Number of wrong answers = 26
+Placement cost = 237336320
+Measurement cost = 15306400
+Measurement count = 9956
+Extracted score for 0058: 1196
+====================
+Processing input: 0059
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=16 N=68 S=729
+max_temperture=1000
+Score = 247434
+Number of wrong answers = 10
+Placement cost = 27743592
+Measurement cost = 15551600
+Measurement count = 9996
+Extracted score for 0059: 247434
+====================
+Processing input: 0060
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=39 N=96 S=441
+max_temperture=1000
+Score = 418627
+Number of wrong answers = 1
+Placement cost = 176245786
+Measurement cost = 14755200
+Measurement count = 9984
+Extracted score for 0060: 418627
+====================
+Processing input: 0061
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=10 N=96 S=36
+max_temperture=216
+Score = 29986051
+Number of wrong answers = 0
+Placement cost = 671684
+Measurement cost = 2563200
+Measurement count = 2112
+Extracted score for 0061: 29986051
+====================
+Processing input: 0062
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=46 N=71 S=729
+max_temperture=1000
+Score = 27049
+Number of wrong answers = 12
+Placement cost = 238511202
+Measurement cost = 15449600
+Measurement count = 9940
+Extracted score for 0062: 27049
+====================
+Processing input: 0063
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=32 N=94 S=121
+max_temperture=726
+Score = 1503380
+Number of wrong answers = 0
+Placement cost = 64029198
+Measurement cost = 2387600
+Measurement count = 1974
+Extracted score for 0063: 1503380
+====================
+Processing input: 0064
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=13 N=75 S=576
+max_temperture=1000
+Score = 1425341
+Number of wrong answers = 4
+Placement cost = 13261984
+Measurement cost = 15375000
+Measurement count = 9975
+Extracted score for 0064: 1425341
+====================
+Processing input: 0065
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=42 N=93 S=324
+max_temperture=1000
+Score = 476726
+Number of wrong answers = 0
+Placement cost = 199713406
+Measurement cost = 9951000
+Measurement count = 7068
+Extracted score for 0065: 476726
+====================
+Processing input: 0066
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=32 N=79 S=484
+max_temperture=1000
+Score = 591286
+Number of wrong answers = 1
+Placement cost = 119998920
+Measurement cost = 15199600
+Measurement count = 9954
+Extracted score for 0066: 591286
+====================
+Processing input: 0067
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=34 N=73 S=729
+max_temperture=1000
+Score = 12152
+Number of wrong answers = 18
+Placement cost = 132783478
+Measurement cost = 15359200
+Measurement count = 9928
+Extracted score for 0067: 12152
+====================
+Processing input: 0068
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=11 N=83 S=441
+max_temperture=1000
+Score = 2884279
+Number of wrong answers = 1
+Placement cost = 12563770
+Measurement cost = 15072800
+Measurement count = 9960
+Extracted score for 0068: 2884279
+====================
+Processing input: 0069
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=39 N=82 S=900
+max_temperture=1000
+Score = 56
+Number of wrong answers = 41
+Placement cost = 176245786
+Measurement cost = 15038800
+Measurement count = 9922
+Extracted score for 0069: 56
+====================
+Processing input: 0070
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=24 N=76 S=784
+max_temperture=1000
+Score = 21828
+Number of wrong answers = 18
+Placement cost = 67125718
+Measurement cost = 15306400
+Measurement count = 9956
+Extracted score for 0070: 21828
+====================
+Processing input: 0071
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=48 N=91 S=121
+max_temperture=726
+Score = 730976
+Number of wrong answers = 0
+Placement cost = 134628756
+Measurement cost = 2074800
+Measurement count = 1729
+Extracted score for 0071: 730976
+====================
+Processing input: 0072
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=25 N=75 S=81
+max_temperture=486
+Score = 4892454
+Number of wrong answers = 0
+Placement cost = 18532142
+Measurement cost = 1807500
+Measurement count = 1500
+Extracted score for 0072: 4892454
+====================
+Processing input: 0073
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=31 N=98 S=729
+max_temperture=1000
+Score = 110
+Number of wrong answers = 40
+Placement cost = 106522346
+Measurement cost = 14729400
+Measurement count = 9996
+Extracted score for 0073: 110
+====================
+Processing input: 0074
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=43 N=68 S=49
+max_temperture=294
+Score = 4978829
+Number of wrong answers = 0
+Placement cost = 18346246
+Measurement cost = 1638800
+Measurement count = 1360
+Extracted score for 0074: 4978829
+====================
+Processing input: 0075
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=81 S=441
+max_temperture=1000
+Score = 1324314
+Number of wrong answers = 0
+Placement cost = 64475804
+Measurement cost = 10935000
+Measurement count = 7533
+Extracted score for 0075: 1324314
+====================
+Processing input: 0076
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=28 N=86 S=16
+max_temperture=96
+Score = 34704340
+Number of wrong answers = 0
+Placement cost = 820684
+Measurement cost = 1960800
+Measurement count = 1634
+Extracted score for 0076: 34704340
+====================
+Processing input: 0077
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=40 N=89 S=81
+max_temperture=486
+Score = 2041786
+Number of wrong answers = 0
+Placement cost = 46616146
+Measurement cost = 2260600
+Measurement count = 1869
+Extracted score for 0077: 2041786
+====================
+Processing input: 0078
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=32 N=86 S=400
+max_temperture=1000
+Score = 770929
+Number of wrong answers = 0
+Placement cost = 119998920
+Measurement cost = 9614800
+Measurement count = 6794
+Extracted score for 0078: 770929
+====================
+Processing input: 0079
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=30 N=79 S=9
+max_temperture=54
+Score = 32472172
+Number of wrong answers = 0
+Placement cost = 340960
+Measurement cost = 2638600
+Measurement count = 2133
+Extracted score for 0079: 32472172
+====================
+Processing input: 0080
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=44 N=82 S=225
+max_temperture=1000
+Score = 445530
+Number of wrong answers = 0
+Placement cost = 221498454
+Measurement cost = 2853600
+Measurement count = 2296
+Extracted score for 0080: 445530
+====================
+Processing input: 0081
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=18 N=95 S=100
+max_temperture=600
+Score = 5923269
+Number of wrong answers = 0
+Placement cost = 13875572
+Measurement cost = 2907000
+Measurement count = 2375
+Extracted score for 0081: 5923269
+====================
+Processing input: 0082
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=40 N=81 S=9
+max_temperture=54
+Score = 42530135
+Number of wrong answers = 0
+Placement cost = 615074
+Measurement cost = 1636200
+Measurement count = 1377
+Extracted score for 0082: 42530135
+====================
+Processing input: 0083
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=50 N=69 S=169
+max_temperture=1000
+Score = 338522
+Number of wrong answers = 0
+Placement cost = 293997860
+Measurement cost = 1304100
+Measurement count = 1104
+Extracted score for 0083: 338522
+====================
+Processing input: 0084
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=31 N=67 S=324
+max_temperture=1000
+Score = 892198
+Number of wrong answers = 0
+Placement cost = 106522346
+Measurement cost = 5460500
+Measurement count = 4020
+Extracted score for 0084: 892198
+====================
+Processing input: 0085
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=12 N=95 S=144
+max_temperture=864
+Score = 6389514
+Number of wrong answers = 0
+Placement cost = 12767144
+Measurement cost = 2783500
+Measurement count = 2280
+Extracted score for 0085: 6389514
+====================
+Processing input: 0086
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=43 N=74 S=900
+max_temperture=1000
+Score = 4254
+Number of wrong answers = 21
+Placement cost = 201283378
+Measurement cost = 15436400
+Measurement count = 9990
+Extracted score for 0086: 4254
+====================
+Processing input: 0087
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=13 N=67 S=841
+max_temperture=1000
+Score = 78100
+Number of wrong answers = 17
+Placement cost = 13261984
+Measurement cost = 15470300
+Measurement count = 9983
+Extracted score for 0087: 78100
+====================
+Processing input: 0088
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=24 N=97 S=1
+max_temperture=50
+Score = 142124593
+Number of wrong answers = 0
+Placement cost = 186508
+Measurement cost = 417100
+Measurement count = 388
+Extracted score for 0088: 142124593
+====================
+Processing input: 0089
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=41 N=82 S=36
+max_temperture=216
+Score = 7907444
+Number of wrong answers = 0
+Placement cost = 9577912
+Measurement cost = 2968400
+Measurement count = 2378
+Extracted score for 0089: 7907444
+====================
+Processing input: 0090
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=17 N=63 S=484
+max_temperture=1000
+Score = 2112772
+Number of wrong answers = 0
+Placement cost = 39047502
+Measurement cost = 8183700
+Measurement count = 5670
+Extracted score for 0090: 2112772
+====================
+Processing input: 0091
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=18 N=79 S=361
+max_temperture=1000
+Score = 1902939
+Number of wrong answers = 0
+Placement cost = 39905118
+Measurement cost = 12545200
+Measurement count = 8453
+Extracted score for 0091: 1902939
+====================
+Processing input: 0092
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=15 N=95 S=529
+max_temperture=1000
+Score = 786495
+Number of wrong answers = 5
+Placement cost = 26800344
+Measurement cost = 14763000
+Measurement count = 9975
+Extracted score for 0092: 786495
+====================
+Processing input: 0093
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=19 N=99 S=361
+max_temperture=1000
+Score = 1716160
+Number of wrong answers = 0
+Placement cost = 46626236
+Measurement cost = 11543400
+Measurement count = 8118
+Extracted score for 0093: 1716160
+====================
+Processing input: 0094
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=46 N=70 S=729
+max_temperture=1000
+Score = 17309
+Number of wrong answers = 14
+Placement cost = 238511202
+Measurement cost = 15484000
+Measurement count = 9940
+Extracted score for 0094: 17309
+====================
+Processing input: 0095
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=94 S=225
+max_temperture=1000
+Score = 1468209
+Number of wrong answers = 0
+Placement cost = 64475804
+Measurement cost = 3534400
+Measurement count = 2820
+Extracted score for 0095: 1468209
+====================
+Processing input: 0096
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=26 N=72 S=900
+max_temperture=1000
+Score = 2052
+Number of wrong answers = 28
+Placement cost = 78757834
+Measurement cost = 15408000
+Measurement count = 9936
+Extracted score for 0096: 2052
+====================
+Processing input: 0097
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=33 N=87 S=529
+max_temperture=1000
+Score = 375660
+Number of wrong answers = 3
+Placement cost = 121333906
+Measurement cost = 14859600
+Measurement count = 9918
+Extracted score for 0097: 375660
+====================
+Processing input: 0098
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=26 N=84 S=676
+max_temperture=1000
+Score = 46808
+Number of wrong answers = 14
+Placement cost = 78757834
+Measurement cost = 15103200
+Measurement count = 9996
+Extracted score for 0098: 46808
+====================
+Processing input: 0099
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc022_a_028.py`
+L=23 N=65 S=36
+max_temperture=216
+Score = 20512653
+Number of wrong answers = 0
+Placement cost = 3039540
+Measurement cost = 1735500
+Measurement count = 1430
+Extracted score for 0099: 20512653
+====================
+Total Score: 1254777625
+Geometric Mean: 926968
+Minimum Score: 56 for N=69
