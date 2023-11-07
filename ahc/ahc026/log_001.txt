@@ -1,0 +1,402 @@
+0000
+==================== result ====================
+Score = 8934
+Extracted score for 0000: 8934
+0001
+==================== result ====================
+Score = 8819
+Extracted score for 0001: 8819
+0002
+==================== result ====================
+Score = 8811
+Extracted score for 0002: 8811
+0003
+==================== result ====================
+Score = 8788
+Extracted score for 0003: 8788
+0004
+==================== result ====================
+Score = 8768
+Extracted score for 0004: 8768
+0005
+==================== result ====================
+Score = 8812
+Extracted score for 0005: 8812
+0006
+==================== result ====================
+Score = 8799
+Extracted score for 0006: 8799
+0007
+==================== result ====================
+Score = 8796
+Extracted score for 0007: 8796
+0008
+==================== result ====================
+Score = 8729
+Extracted score for 0008: 8729
+0009
+==================== result ====================
+Score = 8645
+Extracted score for 0009: 8645
+0010
+==================== result ====================
+Score = 8793
+Extracted score for 0010: 8793
+0011
+==================== result ====================
+Score = 8844
+Extracted score for 0011: 8844
+0012
+==================== result ====================
+Score = 8805
+Extracted score for 0012: 8805
+0013
+==================== result ====================
+Score = 8819
+Extracted score for 0013: 8819
+0014
+==================== result ====================
+Score = 8960
+Extracted score for 0014: 8960
+0015
+==================== result ====================
+Score = 8734
+Extracted score for 0015: 8734
+0016
+==================== result ====================
+Score = 8772
+Extracted score for 0016: 8772
+0017
+==================== result ====================
+Score = 8812
+Extracted score for 0017: 8812
+0018
+==================== result ====================
+Score = 8703
+Extracted score for 0018: 8703
+0019
+==================== result ====================
+Score = 8718
+Extracted score for 0019: 8718
+0020
+==================== result ====================
+Score = 8848
+Extracted score for 0020: 8848
+0021
+==================== result ====================
+Score = 8793
+Extracted score for 0021: 8793
+0022
+==================== result ====================
+Score = 8615
+Extracted score for 0022: 8615
+0023
+==================== result ====================
+Score = 8730
+Extracted score for 0023: 8730
+0024
+==================== result ====================
+Score = 8799
+Extracted score for 0024: 8799
+0025
+==================== result ====================
+Score = 8759
+Extracted score for 0025: 8759
+0026
+==================== result ====================
+Score = 8718
+Extracted score for 0026: 8718
+0027
+==================== result ====================
+Score = 8717
+Extracted score for 0027: 8717
+0028
+==================== result ====================
+Score = 8708
+Extracted score for 0028: 8708
+0029
+==================== result ====================
+Score = 8704
+Extracted score for 0029: 8704
+0030
+==================== result ====================
+Score = 8775
+Extracted score for 0030: 8775
+0031
+==================== result ====================
+Score = 8735
+Extracted score for 0031: 8735
+0032
+==================== result ====================
+Score = 8900
+Extracted score for 0032: 8900
+0033
+==================== result ====================
+Score = 8862
+Extracted score for 0033: 8862
+0034
+==================== result ====================
+Score = 8793
+Extracted score for 0034: 8793
+0035
+==================== result ====================
+Score = 8765
+Extracted score for 0035: 8765
+0036
+==================== result ====================
+Score = 8815
+Extracted score for 0036: 8815
+0037
+==================== result ====================
+Score = 8903
+Extracted score for 0037: 8903
+0038
+==================== result ====================
+Score = 8844
+Extracted score for 0038: 8844
+0039
+==================== result ====================
+Score = 8742
+Extracted score for 0039: 8742
+0040
+==================== result ====================
+Score = 8795
+Extracted score for 0040: 8795
+0041
+==================== result ====================
+Score = 8874
+Extracted score for 0041: 8874
+0042
+==================== result ====================
+Score = 8780
+Extracted score for 0042: 8780
+0043
+==================== result ====================
+Score = 8794
+Extracted score for 0043: 8794
+0044
+==================== result ====================
+Score = 8594
+Extracted score for 0044: 8594
+0045
+==================== result ====================
+Score = 8803
+Extracted score for 0045: 8803
+0046
+==================== result ====================
+Score = 8722
+Extracted score for 0046: 8722
+0047
+==================== result ====================
+Score = 8848
+Extracted score for 0047: 8848
+0048
+==================== result ====================
+Score = 8848
+Extracted score for 0048: 8848
+0049
+==================== result ====================
+Score = 8843
+Extracted score for 0049: 8843
+0050
+==================== result ====================
+Score = 8815
+Extracted score for 0050: 8815
+0051
+==================== result ====================
+Score = 8790
+Extracted score for 0051: 8790
+0052
+==================== result ====================
+Score = 8702
+Extracted score for 0052: 8702
+0053
+==================== result ====================
+Score = 8813
+Extracted score for 0053: 8813
+0054
+==================== result ====================
+Score = 8866
+Extracted score for 0054: 8866
+0055
+==================== result ====================
+Score = 8606
+Extracted score for 0055: 8606
+0056
+==================== result ====================
+Score = 8873
+Extracted score for 0056: 8873
+0057
+==================== result ====================
+Score = 8711
+Extracted score for 0057: 8711
+0058
+==================== result ====================
+Score = 8897
+Extracted score for 0058: 8897
+0059
+==================== result ====================
+Score = 8765
+Extracted score for 0059: 8765
+0060
+==================== result ====================
+Score = 8794
+Extracted score for 0060: 8794
+0061
+==================== result ====================
+Score = 8811
+Extracted score for 0061: 8811
+0062
+==================== result ====================
+Score = 8814
+Extracted score for 0062: 8814
+0063
+==================== result ====================
+Score = 8714
+Extracted score for 0063: 8714
+0064
+==================== result ====================
+Score = 8791
+Extracted score for 0064: 8791
+0065
+==================== result ====================
+Score = 8815
+Extracted score for 0065: 8815
+0066
+==================== result ====================
+Score = 8810
+Extracted score for 0066: 8810
+0067
+==================== result ====================
+Score = 8895
+Extracted score for 0067: 8895
+0068
+==================== result ====================
+Score = 8737
+Extracted score for 0068: 8737
+0069
+==================== result ====================
+Score = 8801
+Extracted score for 0069: 8801
+0070
+==================== result ====================
+Score = 8749
+Extracted score for 0070: 8749
+0071
+==================== result ====================
+Score = 8895
+Extracted score for 0071: 8895
+0072
+==================== result ====================
+Score = 8886
+Extracted score for 0072: 8886
+0073
+==================== result ====================
+Score = 8852
+Extracted score for 0073: 8852
+0074
+==================== result ====================
+Score = 8788
+Extracted score for 0074: 8788
+0075
+==================== result ====================
+Score = 8680
+Extracted score for 0075: 8680
+0076
+==================== result ====================
+Score = 8883
+Extracted score for 0076: 8883
+0077
+==================== result ====================
+Score = 8804
+Extracted score for 0077: 8804
+0078
+==================== result ====================
+Score = 8810
+Extracted score for 0078: 8810
+0079
+==================== result ====================
+Score = 8942
+Extracted score for 0079: 8942
+0080
+==================== result ====================
+Score = 8692
+Extracted score for 0080: 8692
+0081
+==================== result ====================
+Score = 8789
+Extracted score for 0081: 8789
+0082
+==================== result ====================
+Score = 8770
+Extracted score for 0082: 8770
+0083
+==================== result ====================
+Score = 8646
+Extracted score for 0083: 8646
+0084
+==================== result ====================
+Score = 8963
+Extracted score for 0084: 8963
+0085
+==================== result ====================
+Score = 8857
+Extracted score for 0085: 8857
+0086
+==================== result ====================
+Score = 8783
+Extracted score for 0086: 8783
+0087
+==================== result ====================
+Score = 8792
+Extracted score for 0087: 8792
+0088
+==================== result ====================
+Score = 8731
+Extracted score for 0088: 8731
+0089
+==================== result ====================
+Score = 8764
+Extracted score for 0089: 8764
+0090
+==================== result ====================
+Score = 8822
+Extracted score for 0090: 8822
+0091
+==================== result ====================
+Score = 8824
+Extracted score for 0091: 8824
+0092
+==================== result ====================
+Score = 8600
+Extracted score for 0092: 8600
+0093
+==================== result ====================
+Score = 8834
+Extracted score for 0093: 8834
+0094
+==================== result ====================
+Score = 8774
+Extracted score for 0094: 8774
+0095
+==================== result ====================
+Score = 8743
+Extracted score for 0095: 8743
+0096
+==================== result ====================
+Score = 8762
+Extracted score for 0096: 8762
+0097
+==================== result ====================
+Score = 8838
+Extracted score for 0097: 8838
+0098
+==================== result ====================
+Score = 8767
+Extracted score for 0098: 8767
+0099
+==================== result ====================
+Score = 8826
+Extracted score for 0099: 8826
+====================
+Total Score: 878973

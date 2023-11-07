@@ -1,0 +1,502 @@
+0000
+Score = 9306
+Count = 358
+Score = 9306
+Extracted score for 0000: 9306
+0001
+Score = 9271
+Count = 374
+Score = 9271
+Extracted score for 0001: 9271
+0002
+Score = 9198
+Count = 379
+Score = 9198
+Extracted score for 0002: 9198
+0003
+Score = 9258
+Count = 379
+Score = 9258
+Extracted score for 0003: 9258
+0004
+Score = 9235
+Count = 387
+Score = 9235
+Extracted score for 0004: 9235
+0005
+Score = 9233
+Count = 387
+Score = 9233
+Extracted score for 0005: 9233
+0006
+Score = 9225
+Count = 381
+Score = 9225
+Extracted score for 0006: 9225
+0007
+Score = 9201
+Count = 379
+Score = 9201
+Extracted score for 0007: 9201
+0008
+Score = 9203
+Count = 383
+Score = 9203
+Extracted score for 0008: 9203
+0009
+Score = 9215
+Count = 372
+Score = 9215
+Extracted score for 0009: 9215
+0010
+Score = 9199
+Count = 385
+Score = 9199
+Extracted score for 0010: 9199
+0011
+Score = 9248
+Count = 368
+Score = 9248
+Extracted score for 0011: 9248
+0012
+Score = 9256
+Count = 370
+Score = 9256
+Extracted score for 0012: 9256
+0013
+Score = 9232
+Count = 380
+Score = 9232
+Extracted score for 0013: 9232
+0014
+Score = 9333
+Count = 372
+Score = 9333
+Extracted score for 0014: 9333
+0015
+Score = 9200
+Count = 381
+Score = 9200
+Extracted score for 0015: 9200
+0016
+Score = 9231
+Count = 383
+Score = 9231
+Extracted score for 0016: 9231
+0017
+Score = 9270
+Count = 380
+Score = 9270
+Extracted score for 0017: 9270
+0018
+Score = 9140
+Count = 391
+Score = 9140
+Extracted score for 0018: 9140
+0019
+Score = 9243
+Count = 377
+Score = 9243
+Extracted score for 0019: 9243
+0020
+Score = 9241
+Count = 374
+Score = 9241
+Extracted score for 0020: 9241
+0021
+Score = 9207
+Count = 372
+Score = 9207
+Extracted score for 0021: 9207
+0022
+Score = 9169
+Count = 384
+Score = 9169
+Extracted score for 0022: 9169
+0023
+Score = 9212
+Count = 383
+Score = 9212
+Extracted score for 0023: 9212
+0024
+Score = 9193
+Count = 375
+Score = 9193
+Extracted score for 0024: 9193
+0025
+Score = 9195
+Count = 377
+Score = 9195
+Extracted score for 0025: 9195
+0026
+Score = 9253
+Count = 383
+Score = 9253
+Extracted score for 0026: 9253
+0027
+Score = 9267
+Count = 363
+Score = 9267
+Extracted score for 0027: 9267
+0028
+Score = 9231
+Count = 365
+Score = 9231
+Extracted score for 0028: 9231
+0029
+Score = 9256
+Count = 380
+Score = 9256
+Extracted score for 0029: 9256
+0030
+Score = 9234
+Count = 379
+Score = 9234
+Extracted score for 0030: 9234
+0031
+Score = 9242
+Count = 377
+Score = 9242
+Extracted score for 0031: 9242
+0032
+Score = 9220
+Count = 383
+Score = 9220
+Extracted score for 0032: 9220
+0033
+Score = 9305
+Count = 367
+Score = 9305
+Extracted score for 0033: 9305
+0034
+Score = 9285
+Count = 368
+Score = 9285
+Extracted score for 0034: 9285
+0035
+Score = 9310
+Count = 364
+Score = 9310
+Extracted score for 0035: 9310
+0036
+Score = 9280
+Count = 382
+Score = 9280
+Extracted score for 0036: 9280
+0037
+Score = 9280
+Count = 370
+Score = 9280
+Extracted score for 0037: 9280
+0038
+Score = 9231
+Count = 382
+Score = 9231
+Extracted score for 0038: 9231
+0039
+Score = 9208
+Count = 378
+Score = 9208
+Extracted score for 0039: 9208
+0040
+Score = 9200
+Count = 381
+Score = 9200
+Extracted score for 0040: 9200
+0041
+Score = 9271
+Count = 383
+Score = 9271
+Extracted score for 0041: 9271
+0042
+Score = 9265
+Count = 383
+Score = 9265
+Extracted score for 0042: 9265
+0043
+Score = 9257
+Count = 370
+Score = 9257
+Extracted score for 0043: 9257
+0044
+Score = 9110
+Count = 379
+Score = 9110
+Extracted score for 0044: 9110
+0045
+Score = 9251
+Count = 376
+Score = 9251
+Extracted score for 0045: 9251
+0046
+Score = 9257
+Count = 368
+Score = 9257
+Extracted score for 0046: 9257
+0047
+Score = 9174
+Count = 361
+Score = 9174
+Extracted score for 0047: 9174
+0048
+Score = 9224
+Count = 377
+Score = 9224
+Extracted score for 0048: 9224
+0049
+Score = 9275
+Count = 369
+Score = 9275
+Extracted score for 0049: 9275
+0050
+Score = 9208
+Count = 383
+Score = 9208
+Extracted score for 0050: 9208
+0051
+Score = 9223
+Count = 375
+Score = 9223
+Extracted score for 0051: 9223
+0052
+Score = 9211
+Count = 382
+Score = 9211
+Extracted score for 0052: 9211
+0053
+Score = 9250
+Count = 387
+Score = 9250
+Extracted score for 0053: 9250
+0054
+Score = 9227
+Count = 379
+Score = 9227
+Extracted score for 0054: 9227
+0055
+Score = 9227
+Count = 385
+Score = 9227
+Extracted score for 0055: 9227
+0056
+Score = 9209
+Count = 373
+Score = 9209
+Extracted score for 0056: 9209
+0057
+Score = 9251
+Count = 379
+Score = 9251
+Extracted score for 0057: 9251
+0058
+Score = 9240
+Count = 372
+Score = 9240
+Extracted score for 0058: 9240
+0059
+Score = 9166
+Count = 376
+Score = 9166
+Extracted score for 0059: 9166
+0060
+Score = 9186
+Count = 383
+Score = 9186
+Extracted score for 0060: 9186
+0061
+Score = 9245
+Count = 372
+Score = 9245
+Extracted score for 0061: 9245
+0062
+Score = 9234
+Count = 366
+Score = 9234
+Extracted score for 0062: 9234
+0063
+Score = 9230
+Count = 377
+Score = 9230
+Extracted score for 0063: 9230
+0064
+Score = 9205
+Count = 385
+Score = 9205
+Extracted score for 0064: 9205
+0065
+Score = 9278
+Count = 371
+Score = 9278
+Extracted score for 0065: 9278
+0066
+Score = 9279
+Count = 372
+Score = 9279
+Extracted score for 0066: 9279
+0067
+Score = 9281
+Count = 370
+Score = 9281
+Extracted score for 0067: 9281
+0068
+Score = 9220
+Count = 367
+Score = 9220
+Extracted score for 0068: 9220
+0069
+Score = 9241
+Count = 372
+Score = 9241
+Extracted score for 0069: 9241
+0070
+Score = 9220
+Count = 374
+Score = 9220
+Extracted score for 0070: 9220
+0071
+Score = 9226
+Count = 384
+Score = 9226
+Extracted score for 0071: 9226
+0072
+Score = 9286
+Count = 378
+Score = 9286
+Extracted score for 0072: 9286
+0073
+Score = 9178
+Count = 374
+Score = 9178
+Extracted score for 0073: 9178
+0074
+Score = 9309
+Count = 358
+Score = 9309
+Extracted score for 0074: 9309
+0075
+Score = 9153
+Count = 383
+Score = 9153
+Extracted score for 0075: 9153
+0076
+Score = 9320
+Count = 372
+Score = 9320
+Extracted score for 0076: 9320
+0077
+Score = 9262
+Count = 373
+Score = 9262
+Extracted score for 0077: 9262
+0078
+Score = 9204
+Count = 374
+Score = 9204
+Extracted score for 0078: 9204
+0079
+Score = 9255
+Count = 372
+Score = 9255
+Extracted score for 0079: 9255
+0080
+Score = 9242
+Count = 388
+Score = 9242
+Extracted score for 0080: 9242
+0081
+Score = 9263
+Count = 367
+Score = 9263
+Extracted score for 0081: 9263
+0082
+Score = 9245
+Count = 373
+Score = 9245
+Extracted score for 0082: 9245
+0083
+Score = 9205
+Count = 382
+Score = 9205
+Extracted score for 0083: 9205
+0084
+Score = 9306
+Count = 374
+Score = 9306
+Extracted score for 0084: 9306
+0085
+Score = 9194
+Count = 373
+Score = 9194
+Extracted score for 0085: 9194
+0086
+Score = 9278
+Count = 364
+Score = 9278
+Extracted score for 0086: 9278
+0087
+Score = 9249
+Count = 372
+Score = 9249
+Extracted score for 0087: 9249
+0088
+Score = 9233
+Count = 360
+Score = 9233
+Extracted score for 0088: 9233
+0089
+Score = 9238
+Count = 371
+Score = 9238
+Extracted score for 0089: 9238
+0090
+Score = 9260
+Count = 373
+Score = 9260
+Extracted score for 0090: 9260
+0091
+Score = 9224
+Count = 363
+Score = 9224
+Extracted score for 0091: 9224
+0092
+Score = 9147
+Count = 389
+Score = 9147
+Extracted score for 0092: 9147
+0093
+Score = 9278
+Count = 368
+Score = 9278
+Extracted score for 0093: 9278
+0094
+Score = 9293
+Count = 382
+Score = 9293
+Extracted score for 0094: 9293
+0095
+Score = 9248
+Count = 367
+Score = 9248
+Extracted score for 0095: 9248
+0096
+Score = 9229
+Count = 372
+Score = 9229
+Extracted score for 0096: 9229
+0097
+Score = 9201
+Count = 382
+Score = 9201
+Extracted score for 0097: 9201
+0098
+Score = 9196
+Count = 395
+Score = 9196
+Extracted score for 0098: 9196
+0099
+Score = 9284
+Count = 368
+Score = 9284
+Extracted score for 0099: 9284
+====================
+Total Score: 923637
