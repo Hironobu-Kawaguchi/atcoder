@@ -1,0 +1,502 @@
+0000
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1878451
+Extracted score for 0000: 1878451
+0001
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 10648029
+Extracted score for 0001: 10648029
+0002
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5604324
+Extracted score for 0002: 5604324
+0003
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 14357391
+Extracted score for 0003: 14357391
+0004
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5920754
+Extracted score for 0004: 5920754
+0005
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 2434791
+Extracted score for 0005: 2434791
+0006
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 902301
+Extracted score for 0006: 902301
+0007
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 18158014
+Extracted score for 0007: 18158014
+0008
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 10834082
+Extracted score for 0008: 10834082
+0009
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8016871
+Extracted score for 0009: 8016871
+0010
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11542928
+Extracted score for 0010: 11542928
+0011
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6658388
+Extracted score for 0011: 6658388
+0012
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9274484
+Extracted score for 0012: 9274484
+0013
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4155802
+Extracted score for 0013: 4155802
+0014
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9241420
+Extracted score for 0014: 9241420
+0015
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6616681
+Extracted score for 0015: 6616681
+0016
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 19272367
+Extracted score for 0016: 19272367
+0017
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 20991203
+Extracted score for 0017: 20991203
+0018
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9091116
+Extracted score for 0018: 9091116
+0019
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9421315
+Extracted score for 0019: 9421315
+0020
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 7098911
+Extracted score for 0020: 7098911
+0021
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6067674
+Extracted score for 0021: 6067674
+0022
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 892651
+Extracted score for 0022: 892651
+0023
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 2171623
+Extracted score for 0023: 2171623
+0024
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 14596977
+Extracted score for 0024: 14596977
+0025
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6685206
+Extracted score for 0025: 6685206
+0026
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3881351
+Extracted score for 0026: 3881351
+0027
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6499236
+Extracted score for 0027: 6499236
+0028
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 28865104
+Extracted score for 0028: 28865104
+0029
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5444336
+Extracted score for 0029: 5444336
+0030
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4846271
+Extracted score for 0030: 4846271
+0031
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 532351
+Extracted score for 0031: 532351
+0032
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 14401868
+Extracted score for 0032: 14401868
+0033
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 12169531
+Extracted score for 0033: 12169531
+0034
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4550335
+Extracted score for 0034: 4550335
+0035
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 7009274
+Extracted score for 0035: 7009274
+0036
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5810909
+Extracted score for 0036: 5810909
+0037
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4576846
+Extracted score for 0037: 4576846
+0038
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8756718
+Extracted score for 0038: 8756718
+0039
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 25939516
+Extracted score for 0039: 25939516
+0040
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4052196
+Extracted score for 0040: 4052196
+0041
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5669230
+Extracted score for 0041: 5669230
+0042
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8543995
+Extracted score for 0042: 8543995
+0043
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9666831
+Extracted score for 0043: 9666831
+0044
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4468744
+Extracted score for 0044: 4468744
+0045
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8494323
+Extracted score for 0045: 8494323
+0046
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1517993
+Extracted score for 0046: 1517993
+0047
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9167675
+Extracted score for 0047: 9167675
+0048
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9783019
+Extracted score for 0048: 9783019
+0049
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8394126
+Extracted score for 0049: 8394126
+0050
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 10556857
+Extracted score for 0050: 10556857
+0051
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 7056515
+Extracted score for 0051: 7056515
+0052
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 27555009
+Extracted score for 0052: 27555009
+0053
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 24388287
+Extracted score for 0053: 24388287
+0054
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3477807
+Extracted score for 0054: 3477807
+0055
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 2537385
+Extracted score for 0055: 2537385
+0056
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3080341
+Extracted score for 0056: 3080341
+0057
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11863545
+Extracted score for 0057: 11863545
+0058
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1901505
+Extracted score for 0058: 1901505
+0059
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 13576352
+Extracted score for 0059: 13576352
+0060
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6698301
+Extracted score for 0060: 6698301
+0061
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11847969
+Extracted score for 0061: 11847969
+0062
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 17845336
+Extracted score for 0062: 17845336
+0063
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 9900627
+Extracted score for 0063: 9900627
+0064
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3461742
+Extracted score for 0064: 3461742
+0065
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3556093
+Extracted score for 0065: 3556093
+0066
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 7170605
+Extracted score for 0066: 7170605
+0067
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11189253
+Extracted score for 0067: 11189253
+0068
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4778951
+Extracted score for 0068: 4778951
+0069
+    Finished release [optimized] target(s) in 0.03s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6916928
+Extracted score for 0069: 6916928
+0070
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4309160
+Extracted score for 0070: 4309160
+0071
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 2591573
+Extracted score for 0071: 2591573
+0072
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8372755
+Extracted score for 0072: 8372755
+0073
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5729197
+Extracted score for 0073: 5729197
+0074
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 8969545
+Extracted score for 0074: 8969545
+0075
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1842101
+Extracted score for 0075: 1842101
+0076
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 4145921
+Extracted score for 0076: 4145921
+0077
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5888392
+Extracted score for 0077: 5888392
+0078
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 12370467
+Extracted score for 0078: 12370467
+0079
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 13245826
+Extracted score for 0079: 13245826
+0080
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3183587
+Extracted score for 0080: 3183587
+0081
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6420664
+Extracted score for 0081: 6420664
+0082
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1643970
+Extracted score for 0082: 1643970
+0083
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3416148
+Extracted score for 0083: 3416148
+0084
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 14672165
+Extracted score for 0084: 14672165
+0085
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 6537073
+Extracted score for 0085: 6537073
+0086
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 10915903
+Extracted score for 0086: 10915903
+0087
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 45481801
+Extracted score for 0087: 45481801
+0088
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11751065
+Extracted score for 0088: 11751065
+0089
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 7610377
+Extracted score for 0089: 7610377
+0090
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 10357529
+Extracted score for 0090: 10357529
+0091
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 11422916
+Extracted score for 0091: 11422916
+0092
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 3179126
+Extracted score for 0092: 3179126
+0093
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 20338224
+Extracted score for 0093: 20338224
+0094
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 31223101
+Extracted score for 0094: 31223101
+0095
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 15187632
+Extracted score for 0095: 15187632
+0096
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 5957326
+Extracted score for 0096: 5957326
+0097
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 13306913
+Extracted score for 0097: 13306913
+0098
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 18089930
+Extracted score for 0098: 18089930
+0099
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/tester python ../ahc025_a.py`
+Score = 1232151
+Extracted score for 0099: 1232151
+====================
+Total Score: 924327478
