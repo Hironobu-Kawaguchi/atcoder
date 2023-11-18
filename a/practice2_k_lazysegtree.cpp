@@ -9,24 +9,28 @@ using namespace atcoder;
 
 using mint = modint998244353;
 
+// モノイド（セグメントツリーが扱うデータ）の型
 struct S {
     mint a;
     int size;
 };
 
+// 写像（更新操作）を表す型
 struct F {
-    mint a, b;
+    mint b, c;
 };
 
-S op(S l, S r) { return S{l.a + r.a, l.size + r.size}; }
+S op(S l, S r) { return S{l.a + r.a, l.size + r.size}; }    // データのマージ操作
 
-S e() { return S{0, 0}; }
+S e() { return S{0, 0}; }                                   // データの初期値
 
-S mapping(F l, S r) { return S{r.a * l.a + r.size * l.b, r.size}; }
+// データの更新操作 f:写像, x:更新対象  sum(a) * b + c * sum(size)
+S mapping(F f, S x) { return S{x.a * f.b + x.size * f.c, x.size}; }
 
-F composition(F l, F r) { return F{r.a * l.a, r.b * l.a + l.b}; }
+// 写像の合成（2つの更新操作f,gを組み合わせる方法）を定義
+F composition(F f, F g) { return F{g.b * f.b, g.c * f.b + f.c}; }
 
-F id() { return F{1, 0}; }
+F id() { return F{1, 0}; }  // 恒等写像（何も変更しない操作）を表す値   a * 1 + 0
 
 int main() {
     int n, q;
@@ -49,6 +53,9 @@ int main() {
             int c, d;
             scanf("%d %d %d %d", &l, &r, &c, &d);
             seg.apply(l, r, F{c, d});
+            // for (int i = 0; i < n; i++) {
+            //     printf("%d%c", seg.get(i).a.val(), i == n - 1 ? '\n' : ' ');
+            // }
         } else {
             int l, r;
             scanf("%d %d", &l, &r);
