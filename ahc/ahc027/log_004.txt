@@ -1,0 +1,502 @@
+0000
+remove dup end 419 -> 419
+score = 2507958
+Score = 2507958
+Extracted score for 0000: 2507958
+0001
+remove dup end 1215 -> 809
+score = 12877899
+Score = 12877900
+Extracted score for 0001: 12877900
+0002
+remove dup end 855 -> 585
+score = 2700328
+Score = 2700329
+Extracted score for 0002: 2700329
+0003
+remove dup end 2113 -> 1353
+score = 5419489
+Score = 5419490
+Extracted score for 0003: 5419490
+0004
+remove dup end 1907 -> 1183
+score = 13590938
+Score = 13590938
+Extracted score for 0004: 13590938
+0005
+remove dup end 2151 -> 1343
+score = 27652397
+Score = 27652397
+Extracted score for 0005: 27652397
+0006
+remove dup end 449 -> 449
+score = 7040054
+Score = 7040055
+Extracted score for 0006: 7040055
+0007
+remove dup end 575 -> 575
+score = 5786279
+Score = 5786279
+Extracted score for 0007: 5786279
+0008
+remove dup end 817 -> 817
+score = 12413631
+Score = 12413632
+Extracted score for 0008: 12413632
+0009
+remove dup end 821 -> 821
+score = 9927582
+Score = 9927582
+Extracted score for 0009: 9927582
+0010
+remove dup end 1331 -> 809
+score = 19291424
+Score = 19291424
+Extracted score for 0010: 19291424
+0011
+remove dup end 1321 -> 837
+score = 24133572
+Score = 24133573
+Extracted score for 0011: 24133573
+0012
+remove dup end 1111 -> 715
+score = 11885557
+Score = 11885558
+Extracted score for 0012: 11885558
+0013
+remove dup end 1365 -> 1153
+score = 25957820
+Score = 25957820
+Extracted score for 0013: 25957820
+0014
+remove dup end 1449 -> 983
+score = 16293661
+Score = 16293661
+Extracted score for 0014: 16293661
+0015
+remove dup end 2433 -> 1597
+score = 16151524
+Score = 16151525
+Extracted score for 0015: 16151525
+0016
+remove dup end 1749 -> 1133
+score = 22838641
+Score = 22838641
+Extracted score for 0016: 22838641
+0017
+remove dup end 835 -> 753
+score = 6389877
+Score = 6389877
+Extracted score for 0017: 6389877
+0018
+remove dup end 743 -> 491
+score = 2685537
+Score = 2685538
+Extracted score for 0018: 2685538
+0019
+remove dup end 3033 -> 1977
+score = 42355060
+Score = 42355060
+Extracted score for 0019: 42355060
+0020
+remove dup end 1495 -> 879
+score = 18813016
+Score = 18813017
+Extracted score for 0020: 18813017
+0021
+remove dup end 697 -> 675
+score = 12627847
+Score = 12627848
+Extracted score for 0021: 12627848
+0022
+remove dup end 1113 -> 711
+score = 11146080
+Score = 11146080
+Extracted score for 0022: 11146080
+0023
+remove dup end 959 -> 541
+score = 5235086
+Score = 5235086
+Extracted score for 0023: 5235086
+0024
+remove dup end 1305 -> 1093
+score = 15695627
+Score = 15695628
+Extracted score for 0024: 15695628
+0025
+remove dup end 759 -> 527
+score = 3108305
+Score = 3108306
+Extracted score for 0025: 3108306
+0026
+remove dup end 1671 -> 1219
+score = 7697149
+Score = 7697150
+Extracted score for 0026: 7697150
+0027
+remove dup end 1143 -> 805
+score = 12950243
+Score = 12950243
+Extracted score for 0027: 12950243
+0028
+remove dup end 863 -> 605
+score = 2990742
+Score = 2990742
+Extracted score for 0028: 2990742
+0029
+remove dup end 2287 -> 1421
+score = 25879910
+Score = 25879910
+Extracted score for 0029: 25879910
+0030
+remove dup end 1331 -> 1331
+score = 28027695
+Score = 28027695
+Extracted score for 0030: 28027695
+0031
+remove dup end 1175 -> 791
+score = 7632494
+Score = 7632495
+Extracted score for 0031: 7632495
+0032
+remove dup end 1829 -> 1223
+score = 3334534
+Score = 3334535
+Extracted score for 0032: 3334535
+0033
+remove dup end 957 -> 607
+score = 3522409
+Score = 3522409
+Extracted score for 0033: 3522409
+0034
+remove dup end 871 -> 511
+score = 3187831
+Score = 3187831
+Extracted score for 0034: 3187831
+0035
+remove dup end 757 -> 545
+score = 7781311
+Score = 7781312
+Extracted score for 0035: 7781312
+0036
+remove dup end 1345 -> 893
+score = 2459741
+Score = 2459741
+Extracted score for 0036: 2459741
+0037
+remove dup end 573 -> 461
+score = 749016
+Score = 749016
+Extracted score for 0037: 749016
+0038
+remove dup end 967 -> 781
+score = 7383300
+Score = 7383300
+Extracted score for 0038: 7383300
+0039
+remove dup end 479 -> 479
+score = 1765162
+Score = 1765163
+Extracted score for 0039: 1765163
+0040
+remove dup end 1813 -> 1247
+score = 14710545
+Score = 14710546
+Extracted score for 0040: 14710546
+0041
+remove dup end 901 -> 601
+score = 5174665
+Score = 5174665
+Extracted score for 0041: 5174665
+0042
+remove dup end 1157 -> 1157
+score = 47128586
+Score = 47128587
+Extracted score for 0042: 47128587
+0043
+remove dup end 1325 -> 903
+score = 11600593
+Score = 11600593
+Extracted score for 0043: 11600593
+0044
+remove dup end 2403 -> 1461
+score = 6262418
+Score = 6262418
+Extracted score for 0044: 6262418
+0045
+remove dup end 1321 -> 785
+score = 7597660
+Score = 7597661
+Extracted score for 0045: 7597661
+0046
+remove dup end 569 -> 569
+score = 9582442
+Score = 9582442
+Extracted score for 0046: 9582442
+0047
+remove dup end 1335 -> 1305
+score = 23177211
+Score = 23177212
+Extracted score for 0047: 23177212
+0048
+remove dup end 2875 -> 1799
+score = 47690958
+Score = 47690959
+Extracted score for 0048: 47690959
+0049
+remove dup end 1133 -> 797
+score = 10818636
+Score = 10818637
+Extracted score for 0049: 10818637
+0050
+remove dup end 631 -> 621
+score = 6884022
+Score = 6884022
+Extracted score for 0050: 6884022
+0051
+remove dup end 1209 -> 845
+score = 40237455
+Score = 40237456
+Extracted score for 0051: 40237456
+0052
+remove dup end 2037 -> 1405
+score = 10816557
+Score = 10816557
+Extracted score for 0052: 10816557
+0053
+remove dup end 1097 -> 767
+score = 13154967
+Score = 13154967
+Extracted score for 0053: 13154967
+0054
+remove dup end 2987 -> 1829
+score = 21368625
+Score = 21368625
+Extracted score for 0054: 21368625
+0055
+remove dup end 2003 -> 1187
+score = 35853922
+Score = 35853923
+Extracted score for 0055: 35853923
+0056
+remove dup end 1841 -> 1177
+score = 7672423
+Score = 7672424
+Extracted score for 0056: 7672424
+0057
+remove dup end 1787 -> 1247
+score = 39956626
+Score = 39956627
+Extracted score for 0057: 39956627
+0058
+remove dup end 2187 -> 1405
+score = 24789486
+Score = 24789486
+Extracted score for 0058: 24789486
+0059
+remove dup end 635 -> 575
+score = 10708545
+Score = 10708545
+Extracted score for 0059: 10708545
+0060
+remove dup end 2005 -> 1439
+score = 47087499
+Score = 47087499
+Extracted score for 0060: 47087499
+0061
+remove dup end 1061 -> 963
+score = 15925954
+Score = 15925954
+Extracted score for 0061: 15925954
+0062
+remove dup end 2245 -> 1665
+score = 39416653
+Score = 39416654
+Extracted score for 0062: 39416654
+0063
+remove dup end 1817 -> 1191
+score = 27448122
+Score = 27448123
+Extracted score for 0063: 27448123
+0064
+remove dup end 1887 -> 1181
+score = 19355385
+Score = 19355386
+Extracted score for 0064: 19355386
+0065
+remove dup end 1791 -> 1153
+score = 2682254
+Score = 2682255
+Extracted score for 0065: 2682255
+0066
+remove dup end 1093 -> 801
+score = 7906940
+Score = 7906941
+Extracted score for 0066: 7906941
+0067
+remove dup end 1711 -> 1171
+score = 32070145
+Score = 32070145
+Extracted score for 0067: 32070145
+0068
+remove dup end 699 -> 523
+score = 7172831
+Score = 7172831
+Extracted score for 0068: 7172831
+0069
+remove dup end 805 -> 553
+score = 1784358
+Score = 1784358
+Extracted score for 0069: 1784358
+0070
+remove dup end 2773 -> 1747
+score = 36475556
+Score = 36475556
+Extracted score for 0070: 36475556
+0071
+remove dup end 3155 -> 1927
+score = 70261100
+Score = 70261100
+Extracted score for 0071: 70261100
+0072
+remove dup end 1111 -> 831
+score = 2612080
+Score = 2612080
+Extracted score for 0072: 2612080
+0073
+remove dup end 1509 -> 989
+score = 5974634
+Score = 5974635
+Extracted score for 0073: 5974635
+0074
+remove dup end 785 -> 469
+score = 5519621
+Score = 5519621
+Extracted score for 0074: 5519621
+0075
+remove dup end 2121 -> 1501
+score = 22710954
+Score = 22710954
+Extracted score for 0075: 22710954
+0076
+remove dup end 1725 -> 1121
+score = 9979644
+Score = 9979645
+Extracted score for 0076: 9979645
+0077
+remove dup end 793 -> 487
+score = 11463426
+Score = 11463426
+Extracted score for 0077: 11463426
+0078
+remove dup end 967 -> 679
+score = 5220792
+Score = 5220792
+Extracted score for 0078: 5220792
+0079
+remove dup end 1625 -> 1101
+score = 15099714
+Score = 15099714
+Extracted score for 0079: 15099714
+0080
+remove dup end 1329 -> 843
+score = 10165350
+Score = 10165351
+Extracted score for 0080: 10165351
+0081
+remove dup end 2121 -> 1401
+score = 26002974
+Score = 26002975
+Extracted score for 0081: 26002975
+0082
+remove dup end 2061 -> 1305
+score = 31341292
+Score = 31341292
+Extracted score for 0082: 31341292
+0083
+remove dup end 1283 -> 869
+score = 7425943
+Score = 7425944
+Extracted score for 0083: 7425944
+0084
+remove dup end 1625 -> 1049
+score = 10702857
+Score = 10702857
+Extracted score for 0084: 10702857
+0085
+remove dup end 483 -> 483
+score = 2078866
+Score = 2078867
+Extracted score for 0085: 2078867
+0086
+remove dup end 693 -> 517
+score = 3404980
+Score = 3404980
+Extracted score for 0086: 3404980
+0087
+remove dup end 1073 -> 827
+score = 11092175
+Score = 11092175
+Extracted score for 0087: 11092175
+0088
+remove dup end 1297 -> 979
+score = 24608089
+Score = 24608089
+Extracted score for 0088: 24608089
+0089
+remove dup end 2027 -> 1353
+score = 12474640
+Score = 12474641
+Extracted score for 0089: 12474641
+0090
+remove dup end 2149 -> 1235
+score = 21218680
+Score = 21218681
+Extracted score for 0090: 21218681
+0091
+remove dup end 1081 -> 743
+score = 14512386
+Score = 14512386
+Extracted score for 0091: 14512386
+0092
+remove dup end 2969 -> 1645
+score = 58672787
+Score = 58672788
+Extracted score for 0092: 58672788
+0093
+remove dup end 2297 -> 1431
+score = 36087490
+Score = 36087491
+Extracted score for 0093: 36087491
+0094
+remove dup end 1937 -> 1331
+score = 35746306
+Score = 35746306
+Extracted score for 0094: 35746306
+0095
+remove dup end 1439 -> 1439
+score = 41848439
+Score = 41848439
+Extracted score for 0095: 41848439
+0096
+remove dup end 1461 -> 945
+score = 29233581
+Score = 29233582
+Extracted score for 0096: 29233582
+0097
+remove dup end 2949 -> 1743
+score = 42112272
+Score = 42112272
+Extracted score for 0097: 42112272
+0098
+remove dup end 1519 -> 919
+score = 7070574
+Score = 7070574
+Extracted score for 0098: 7070574
+0099
+remove dup end 1579 -> 1141
+score = 38485931
+Score = 38485931
+Extracted score for 0099: 38485931
+====================
+Total Score: 1715526386
