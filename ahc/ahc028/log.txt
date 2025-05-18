@@ -1,0 +1,402 @@
+0000
+score:7061
+Score = 7061
+Extracted score for 0000: 7061
+0001
+score:6745
+Score = 6745
+Extracted score for 0001: 6745
+0002
+score:7019
+Score = 7019
+Extracted score for 0002: 7019
+0003
+score:6860
+Score = 6860
+Extracted score for 0003: 6860
+0004
+score:6726
+Score = 6726
+Extracted score for 0004: 6726
+0005
+score:6887
+Score = 6887
+Extracted score for 0005: 6887
+0006
+score:6739
+Score = 6739
+Extracted score for 0006: 6739
+0007
+score:6755
+Score = 6755
+Extracted score for 0007: 6755
+0008
+score:6942
+Score = 6942
+Extracted score for 0008: 6942
+0009
+score:6873
+Score = 6873
+Extracted score for 0009: 6873
+0010
+score:6542
+Score = 6542
+Extracted score for 0010: 6542
+0011
+score:6826
+Score = 6826
+Extracted score for 0011: 6826
+0012
+score:6919
+Score = 6919
+Extracted score for 0012: 6919
+0013
+score:6803
+Score = 6803
+Extracted score for 0013: 6803
+0014
+score:6850
+Score = 6850
+Extracted score for 0014: 6850
+0015
+score:6871
+Score = 6871
+Extracted score for 0015: 6871
+0016
+score:6818
+Score = 6818
+Extracted score for 0016: 6818
+0017
+score:6769
+Score = 6769
+Extracted score for 0017: 6769
+0018
+score:6886
+Score = 6886
+Extracted score for 0018: 6886
+0019
+score:6943
+Score = 6943
+Extracted score for 0019: 6943
+0020
+score:6825
+Score = 6825
+Extracted score for 0020: 6825
+0021
+score:6815
+Score = 6815
+Extracted score for 0021: 6815
+0022
+score:6735
+Score = 6735
+Extracted score for 0022: 6735
+0023
+score:6850
+Score = 6850
+Extracted score for 0023: 6850
+0024
+score:6823
+Score = 6823
+Extracted score for 0024: 6823
+0025
+score:6905
+Score = 6905
+Extracted score for 0025: 6905
+0026
+score:6895
+Score = 6895
+Extracted score for 0026: 6895
+0027
+score:6856
+Score = 6856
+Extracted score for 0027: 6856
+0028
+score:6905
+Score = 6905
+Extracted score for 0028: 6905
+0029
+score:6974
+Score = 6974
+Extracted score for 0029: 6974
+0030
+score:7055
+Score = 7055
+Extracted score for 0030: 7055
+0031
+score:6976
+Score = 6976
+Extracted score for 0031: 6976
+0032
+score:6820
+Score = 6820
+Extracted score for 0032: 6820
+0033
+score:6867
+Score = 6867
+Extracted score for 0033: 6867
+0034
+score:6746
+Score = 6746
+Extracted score for 0034: 6746
+0035
+score:7036
+Score = 7036
+Extracted score for 0035: 7036
+0036
+score:6667
+Score = 6667
+Extracted score for 0036: 6667
+0037
+score:6704
+Score = 6704
+Extracted score for 0037: 6704
+0038
+score:6755
+Score = 6755
+Extracted score for 0038: 6755
+0039
+score:6889
+Score = 6889
+Extracted score for 0039: 6889
+0040
+score:6714
+Score = 6714
+Extracted score for 0040: 6714
+0041
+score:6765
+Score = 6765
+Extracted score for 0041: 6765
+0042
+score:6963
+Score = 6963
+Extracted score for 0042: 6963
+0043
+score:6988
+Score = 6988
+Extracted score for 0043: 6988
+0044
+score:6993
+Score = 6993
+Extracted score for 0044: 6993
+0045
+score:6839
+Score = 6839
+Extracted score for 0045: 6839
+0046
+score:6712
+Score = 6712
+Extracted score for 0046: 6712
+0047
+score:6938
+Score = 6938
+Extracted score for 0047: 6938
+0048
+score:6973
+Score = 6973
+Extracted score for 0048: 6973
+0049
+score:7016
+Score = 7016
+Extracted score for 0049: 7016
+0050
+score:6903
+Score = 6903
+Extracted score for 0050: 6903
+0051
+score:6748
+Score = 6748
+Extracted score for 0051: 6748
+0052
+score:6949
+Score = 6949
+Extracted score for 0052: 6949
+0053
+score:6856
+Score = 6856
+Extracted score for 0053: 6856
+0054
+score:6672
+Score = 6672
+Extracted score for 0054: 6672
+0055
+score:7042
+Score = 7042
+Extracted score for 0055: 7042
+0056
+score:7095
+Score = 7095
+Extracted score for 0056: 7095
+0057
+score:7004
+Score = 7004
+Extracted score for 0057: 7004
+0058
+score:6785
+Score = 6785
+Extracted score for 0058: 6785
+0059
+score:6796
+Score = 6796
+Extracted score for 0059: 6796
+0060
+score:6805
+Score = 6805
+Extracted score for 0060: 6805
+0061
+score:6907
+Score = 6907
+Extracted score for 0061: 6907
+0062
+score:6774
+Score = 6774
+Extracted score for 0062: 6774
+0063
+score:6690
+Score = 6690
+Extracted score for 0063: 6690
+0064
+score:6972
+Score = 6972
+Extracted score for 0064: 6972
+0065
+score:6981
+Score = 6981
+Extracted score for 0065: 6981
+0066
+score:6890
+Score = 6890
+Extracted score for 0066: 6890
+0067
+score:6823
+Score = 6823
+Extracted score for 0067: 6823
+0068
+score:6764
+Score = 6764
+Extracted score for 0068: 6764
+0069
+score:6904
+Score = 6904
+Extracted score for 0069: 6904
+0070
+score:7027
+Score = 7027
+Extracted score for 0070: 7027
+0071
+score:6857
+Score = 6857
+Extracted score for 0071: 6857
+0072
+score:6917
+Score = 6917
+Extracted score for 0072: 6917
+0073
+score:6981
+Score = 6981
+Extracted score for 0073: 6981
+0074
+score:6866
+Score = 6866
+Extracted score for 0074: 6866
+0075
+score:6817
+Score = 6817
+Extracted score for 0075: 6817
+0076
+score:6950
+Score = 6950
+Extracted score for 0076: 6950
+0077
+score:6896
+Score = 6896
+Extracted score for 0077: 6896
+0078
+score:6984
+Score = 6984
+Extracted score for 0078: 6984
+0079
+score:6792
+Score = 6792
+Extracted score for 0079: 6792
+0080
+score:7045
+Score = 7045
+Extracted score for 0080: 7045
+0081
+score:6830
+Score = 6830
+Extracted score for 0081: 6830
+0082
+score:6542
+Score = 6542
+Extracted score for 0082: 6542
+0083
+score:6858
+Score = 6858
+Extracted score for 0083: 6858
+0084
+score:6867
+Score = 6867
+Extracted score for 0084: 6867
+0085
+score:6802
+Score = 6802
+Extracted score for 0085: 6802
+0086
+score:6952
+Score = 6952
+Extracted score for 0086: 6952
+0087
+score:6874
+Score = 6874
+Extracted score for 0087: 6874
+0088
+score:6844
+Score = 6844
+Extracted score for 0088: 6844
+0089
+score:6928
+Score = 6928
+Extracted score for 0089: 6928
+0090
+score:6857
+Score = 6857
+Extracted score for 0090: 6857
+0091
+score:7002
+Score = 7002
+Extracted score for 0091: 7002
+0092
+score:6801
+Score = 6801
+Extracted score for 0092: 6801
+0093
+score:6878
+Score = 6878
+Extracted score for 0093: 6878
+0094
+score:6897
+Score = 6897
+Extracted score for 0094: 6897
+0095
+score:7030
+Score = 7030
+Extracted score for 0095: 7030
+0096
+score:6680
+Score = 6680
+Extracted score for 0096: 6680
+0097
+score:6898
+Score = 6898
+Extracted score for 0097: 6898
+0098
+score:6762
+Score = 6762
+Extracted score for 0098: 6762
+0099
+score:6887
+Score = 6887
+Extracted score for 0099: 6887
+====================
+Total Score: 686514
