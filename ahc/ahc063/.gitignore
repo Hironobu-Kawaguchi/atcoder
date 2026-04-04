@@ -1,0 +1,12 @@
+bin/
+out/
+logs/
+tmp/
+target/
+experiments/*
+!experiments/index.csv
+A - Colorful Ouroboros_files/
+A - Colorful Ouroboros.html
+solutions/greedy_beam_v001.rs
+src/main.rs
+tools/
