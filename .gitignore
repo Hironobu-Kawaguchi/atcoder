@@ -20,3 +20,7 @@ src_genocon2021
 .ipynb_checkpoints
 
 venv/
+.venv/
+.uv/
+.uv-cache/
+.uv-python/
