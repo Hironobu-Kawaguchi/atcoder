@@ -1,0 +1,10 @@
+/target/
+/out/*
+!/out/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/tmp/
+/tools/target/
+*.html
+*.zip
+*.dSYM/
