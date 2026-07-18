@@ -11,18 +11,17 @@ Contest: [estie Programming Contest 2026 (AtCoder Heuristic Contest 068)](https:
 
 - [x] Add the mandatory AHC generative-AI instruction to `AGENTS.md`.
 - [x] Prepare a release build, formatter, linter, tests, local I/O, and solution snapshots.
-- [ ] Confirm the language/runtime selection on AtCoder.
-- [ ] Open the task and download the official local tools after the contest begins.
+- [x] Confirm Rust as the contest language.
+- [x] Open the task and download the official local tools after the contest begins.
 
 ## Start checklist
 
-1. Read the entire statement, constraints, output validity rules, score formula, and time limit.
-2. Fill in `NOTES.md` before coding.
-3. Replace `TIME_LIMIT_SEC` and the placeholder parser in `src/main.rs`.
-4. Implement the simplest always-valid baseline first.
-5. Save the first baseline with `make snapshot NAME=baseline_v001`.
-6. Put official sample or generated cases under `in/` and official tools under `tools/`.
-7. Validate every output with the official tester before comparing scores.
+1. Read the entire statement, constraints, output validity rules, score formula, and time limit. (done)
+2. Fill in `NOTES.md` before coding. (done)
+3. Implement three independent candidates under `solutions/`. (done)
+4. Compile all candidates without executing them. (done)
+5. Run `make evaluate` once on all 100 official inputs.
+6. Report the results and stop before any result-driven change, as required by the AHC AI rules.
 
 ## Commands
 
@@ -32,6 +31,7 @@ make check
 make build
 make run CASE=sample
 make snapshot NAME=baseline_v001
+make evaluate JOBS=16 TIMEOUT=3.0
 ```
 
 `make run CASE=sample` reads `in/sample.txt` and writes `out/sample.txt`.

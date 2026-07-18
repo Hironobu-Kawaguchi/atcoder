@@ -4,8 +4,10 @@ ROOT := $(abspath .)
 BIN := $(ROOT)/target/release/ahc068
 CASE ?= sample
 NAME ?= baseline
+JOBS ?= 16
+TIMEOUT ?= 3.0
 
-.PHONY: build test check run snapshot clean
+.PHONY: build test check run snapshot evaluate clean
 
 build:
 	cargo build --release --manifest-path $(ROOT)/Cargo.toml
@@ -28,6 +30,11 @@ snapshot:
 	@test ! -e $(ROOT)/solutions/$(NAME).rs || { echo "already exists: solutions/$(NAME).rs" >&2; exit 1; }
 	cp $(ROOT)/src/main.rs $(ROOT)/solutions/$(NAME).rs
 	@echo "saved solutions/$(NAME).rs"
+
+# This runs every candidate on all official inputs. Under the AHC AI rules,
+# report the results and stop before making any result-driven code changes.
+evaluate:
+	python3 $(ROOT)/scripts/evaluate_all.py --jobs $(JOBS) --timeout $(TIMEOUT)
 
 clean:
 	cargo clean --manifest-path $(ROOT)/Cargo.toml

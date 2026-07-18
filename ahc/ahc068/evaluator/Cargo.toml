@@ -1,0 +1,8 @@
+[package]
+name = "ahc068-scorer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+tools = { path = "../tools" }

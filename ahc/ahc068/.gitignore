@@ -1,10 +1,14 @@
 /target/
+/evaluator/target/
+/tools/
+
 /out/*
 !/out/.gitkeep
 /logs/*
 !/logs/.gitkeep
 /tmp/
-/tools/target/
+/results/
+
 *.html
 *.zip
 *.dSYM/
