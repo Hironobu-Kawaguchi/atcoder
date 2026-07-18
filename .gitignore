@@ -3,6 +3,8 @@
 /ahc/rcl-contest-2021-long/A
 /ahc/intro-heuristics/tester/
 
+.DS_Store
+
 *.pdf
 *.pdb
 *.exe
